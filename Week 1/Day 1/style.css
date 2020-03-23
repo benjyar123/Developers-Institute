@@ -1,0 +1,21 @@
+#main-heading {
+	background-color: red;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	padding-top: 100px;
+}
+
+#second-heading {
+	background-color: purple;
+	margin: 30px 50px;
+	border: 10px solid blue;
+	padding: 20px 20px;
+}
+
+.blue-text {
+	color: cyan;
+}
+
+a:hover {
+	color: red;
+}

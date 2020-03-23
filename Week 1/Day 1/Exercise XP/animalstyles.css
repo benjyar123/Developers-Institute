@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+h2 {
+	color: purple;
+}
+
+#div1 {
+	float: left;
+	width: 50%;
+}
+
+#div2 {
+	float: right;
+	width: 50%;
+}
+
+.centre-heading {
+	text-align: center;
+}
+
+body {
+	background-color: lightblue;
+	font-family: sans-serif;
+}
+
+div {
+	border: 5px;
+	border-style: solid;
+	border-color: pink;
+}

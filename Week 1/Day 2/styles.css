@@ -1,0 +1,16 @@
+h2 {
+	font-family: sans-serif;
+	color: blue;
+	text-align: center;
+	border-style: dashed;
+	border: 10px 10px 10px 10px;
+		}
+
+#fb {
+	color: red;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
