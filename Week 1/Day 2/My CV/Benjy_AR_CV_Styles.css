@@ -1,0 +1,53 @@
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+body {
+	max-width: 800px;
+	margin: auto;
+}
+
+form {
+	width: 200px;
+	font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+
+p {
+	text-align: justify;
+	clear: both;
+}
+
+
+.leftcolumn {
+	font-weight: bold;
+	float: left;
+	width: 50%;
+}
+
+.rightcolumn {
+	font-weight: bold;
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+#benjy_photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#leftcolumn1 {
+	font-weight: normal;
+}
