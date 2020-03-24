@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- 
+
+Worked on this and found a way to do most of it, but really struggled with:
+
+- Doing anything with the navbar (eg change text colour, item locations, etc.)
+
+- Getting font awesome icons to appear inside bootstrap cards. The mobile one worked but couldn't get anything else to work. -->
+
+
+
+	<!-- bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- my style sheet to override-->
+	<link rel="stylesheet" type="text/css" href="Landing_Page_Styles.css">
+
+	<title>Landing Page Exercise</title>
+</head>
+<body>
+
+<div class="container" style="background-image: url('background.jpg'); height: 400px; width: 100%;background-size: cover;">
+
+	<div class="row">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">FRAME</a>
+		 <ul class="navbar-nav mr-auto">
+		 	<li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+		 	<li class="nav-item active"><a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a></li>
+		 	<li class="nav-item active"><a class="nav-link" href="#">Pricing <span class="sr-only">(current)</span></a></li>
+		 	<li class="nav-item active"><a class="nav-link" href="#">Reviews <span class="sr-only">(current)</span></a></li>
+		 	<li class="nav-item active"><a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a></li>
+		 </ul>
+	</nav>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6 offset-sm-3" id="headline">
+			uicookies.com Creates High Quality Bootstrap Template for <em>Free<em>
+		</div>
+	</div>
+
+	<div class="row" id="buttonrow">
+		<div class="col-sm-2 offset-sm-4">
+			<button type="button" class="btn btn-primary btn-block">Get Them Now</button>
+		</div>
+		<div class="col-sm-2">
+			<button type="button" id="whitebutton" class="btn btn-outline-primary btn-block">See Features</button>
+		</div>
+	</div>
+
+
+
+
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h2><i class="fa fa-mobile fa-2x"></i></h2>
+        <h5 class="card-title">Mobile Optimise</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+        <a href="#" class="btn btn-light btn-outline-dark">Learn More &#8811;</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h2><i class="fa fa-mobile fa-2x"></i></h2>
+        <h5 class="card-title">Increase Revenue</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+        <a href="#" class="btn btn-light btn-outline-dark">Learn More &#8811;</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h2><i class="fa fa-mobile fa-2x"></i></h2>
+        <h5 class="card-title">Smart Idea</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+        <a href="#" class="btn btn-light btn-outline-dark">Learn More &#8811;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
