@@ -1,0 +1,21 @@
+section {
+	border: 1px solid black;
+	height: 300px;
+	width: 300px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"a b c"
+	"a d c"
+	"a d c";
+		}
+
+.div1 {
+	background-color: pink;
+	border: 1px solid black;
+	grid-row: 1;
+	grid-column: 1;
+	grid-area: d, b;
+	}
+

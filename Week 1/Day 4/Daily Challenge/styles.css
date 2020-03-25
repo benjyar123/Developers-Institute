@@ -1,0 +1,61 @@
+.smallgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 100px;
+	width: 100px;
+	grid-row-gap: 5px;
+	grid-column-gap: 5px;
+	grid-template-areas: 
+	"TL TC TR"
+	"CL CC CR"
+	"BL BC BR";
+}		
+
+
+
+.or1 {
+	grid-area: "TL";
+	background-color: orange;
+}
+
+.be1 {
+	grid-area: "TC";
+	background-color: beige;
+}
+
+.br1 {
+	grid-area: "TR";
+	background-color: brown;
+}
+
+.or2 {
+	grid-area: "CR";
+	background-color: orange;
+}
+
+.be2 {
+	grid-area: "CL";
+	background-color: beige;
+}
+
+.br2 {
+	grid-area: "CC";
+	background-color: brown;
+}
+
+.or3 {
+	grid-area: "BC";
+	background-color: orange;
+}
+
+.be3 {
+	grid-area: "BR";
+	background-color: beige;
+}
+
+.br3 {
+	grid-area: "BL";
+	background-color: brown;
+}
+
