@@ -10,10 +10,13 @@ array.splice(bad_apples, 1)
 
 array.reverse()
 
-
 document.write(array)
 
 let array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
 let nested_array = array2[1];
 
 document.write(nested_array[1])
+
+let orange = array2[1][1]
+
+document.write(orange)
