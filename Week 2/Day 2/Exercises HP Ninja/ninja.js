@@ -16,11 +16,7 @@ let string = prompt("Type in a word, and we'll make it into a verb - unless it a
 
 if (string.endsWith("ing")) {
 	alert (string + "ly")
-}
-
-else if ((string.length) >= 3) {
+} else if ((string.length) >= 3) {
 	alert (string + "ing")
-}
-
-else alert(string)
+} else alert(string)
 

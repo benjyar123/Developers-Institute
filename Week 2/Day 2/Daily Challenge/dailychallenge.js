@@ -5,15 +5,10 @@ let badPosition = sentence.indexOf("bad")
 
 
 if (notPosition < badPosition) {
-
 let newSentence = sentence.replace(" not", "")
 newSentence = newSentence.replace("bad", "good")
-
 alert(newSentence)
-
-}
-
-else alert(sentence)
+} else alert(sentence)
 
 // Daily challenge : Not Bad
 // Create a string that has the word “not” and “bad” inside
