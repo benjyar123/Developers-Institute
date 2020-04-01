@@ -1,0 +1,1 @@
+I made this a few days ago and it's pretty similar to the Exercise XP Gold task so I've skipped that and moved on to ninja and daily challenge.
