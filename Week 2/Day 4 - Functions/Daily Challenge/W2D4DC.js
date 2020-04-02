@@ -1,6 +1,7 @@
 
 
 let wordArr = ["Hello", "World", "In", "A", "Frame"];
+// can use text.split(" ") to spit string into array of words
 let listLength = wordArr.length; 
 let space = " "
 
