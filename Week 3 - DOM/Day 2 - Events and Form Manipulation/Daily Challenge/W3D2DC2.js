@@ -6,7 +6,7 @@ let userProtein = document.getElementById("protein");
 let userVegetable = document.getElementById("vegetable");
 let userFruit = document.getElementById("fruit");
 
-let cookingAdjective = ["deep-fried", "roasted", "boiled", "barbecued", "raw", "chopped", "pickled", "microwaved", "frozen", "curried", "sauteed", "battered"];
+let cookingAdjective = ["deep-fried", "roasted", "boiled", "barbecued", "raw", "chopped", "pickled", "microwaved", "frozen", "curried", "sauteed", "battered", "grilled"];
 let cookingNoun = ["sandwich", "pancake", "risotto", "salad", "fajita", "curry", "kebab", "omelette", "lasagne", "pizza", "burger", "stir-fry"];
 let dessertType = ["ice cream", "cake", "sorbet", "juice", "smoothie", "tart", "crumble", "pie", "pancake", "muffin", "waffle", "lollipop"];
 
@@ -28,9 +28,3 @@ dinnerButton.addEventListener('click', myDinner);
 
 
 
-
-
-
-
-
-// cookingAdj + userProtein + cookingNoun, "with a side-serving of" cookingAdj + userVegetable + ", and" + userFruit 

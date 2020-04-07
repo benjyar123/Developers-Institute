@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+
+#redBox {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+#startZone {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: white;
+  border: 1px solid black;
+}
+#endZone {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: pink;
+  border: 1px solid black;
+}
+
+</style>
+<body>
+<p><button onclick="myMove()">Click Me</button></p>
+<div id ="container">
+  <div id ="animate"></div>
+</div>
+<br>
+<div id="startZone">
+	<div id ="redBox" draggable="true" ondragstart="dragStart(event)">
+	</div>
+</div>
+<br>
+<div id="endZone" ondragover="allowDrop(event)" ondrop="dragDrop(event)">
+Drag red box into pink box</div>
+
+<script type="text/javascript" src="W3D3XP.js"></script>
+
+</body>
+</html>

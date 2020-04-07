@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#letterBox {
+  width: 800px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#board {
+  width: 800px;
+  height: 400px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.letter {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;  
+}
+
+</style>
+</head>
+<body>
+  <div id="letterBox">
+    <div id="A" class="letter" draggable="true" ondragstart="dragStart(event)">A</div>
+    <div id="B" class="letter" draggable="true" ondragstart="dragStart(event)">B</div>
+    <div id="C" class="letter" draggable="true" ondragstart="dragStart(event)">C</div>
+    <div id="D" class="letter" draggable="true" ondragstart="dragStart(event)">D</div>
+    <div id="E" class="letter" draggable="true" ondragstart="dragStart(event)">E</div>
+    <div id="F" class="letter" draggable="true" ondragstart="dragStart(event)">F</div>
+    <div id="G" class="letter" draggable="true" ondragstart="dragStart(event)">G</div>
+    <div id="H" class="letter" draggable="true" ondragstart="dragStart(event)">H</div>
+    <div id="I" class="letter" draggable="true" ondragstart="dragStart(event)">I</div>
+    <div id="J" class="letter" draggable="true" ondragstart="dragStart(event)">J</div>
+    <div id="K" class="letter" draggable="true" ondragstart="dragStart(event)">K</div>
+    <div id="L" class="letter" draggable="true" ondragstart="dragStart(event)">L</div>
+    <div id="M" class="letter" draggable="true" ondragstart="dragStart(event)">M</div>
+    <div id="N" class="letter" draggable="true" ondragstart="dragStart(event)">N</div>
+    <div id="O" class="letter" draggable="true" ondragstart="dragStart(event)">O</div>
+    <div id="P" class="letter" draggable="true" ondragstart="dragStart(event)">P</div>
+    <div id="Q" class="letter" draggable="true" ondragstart="dragStart(event)">Q</div>
+    <div id="R" class="letter" draggable="true" ondragstart="dragStart(event)">R</div>
+    <div id="S" class="letter" draggable="true" ondragstart="dragStart(event)">S</div>
+    <div id="T" class="letter" draggable="true" ondragstart="dragStart(event)">T</div>
+    <div id="U" class="letter" draggable="true" ondragstart="dragStart(event)">U</div>
+    <div id="V" class="letter" draggable="true" ondragstart="dragStart(event)">V</div>
+    <div id="W" class="letter" draggable="true" ondragstart="dragStart(event)">W</div>
+    <div id="X" class="letter" draggable="true" ondragstart="dragStart(event)">X</div>
+    <div id="Y" class="letter" draggable="true" ondragstart="dragStart(event)">Y</div>
+    <div id="Z" class="letter" draggable="true" ondragstart="dragStart(event)">Z</div>
+  </div>
+  <div id = "board" ondrop="dragDrop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="W3D3XPG.js"></script>
+</body>
+</html>
