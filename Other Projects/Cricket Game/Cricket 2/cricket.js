@@ -92,15 +92,15 @@ function wicket () {
 	alert("HOWZAAAAAAAT?!?!")
 
 	let rand = Math.random();
-	if (rand < 0.1) {
+	if (rand < 0.2) {
 		alert("Not out!! Umpire says it's drifting down leg. Play on...");
 		innings.innerText = inningsSoFar + " " + ".";
 		score.innerHTML = parseInt(score.innerHTML) + " (" + (balls) + ")";
-	} else if (rand < 0.2) {
+	} else if (rand < 0.4) {
 		alert("Not out!! There's nothing on snicko. Play on...");
 		innings.innerText = inningsSoFar + " " + ".";
 		score.innerHTML = parseInt(score.innerHTML) + " (" + (balls) + ")";
-	} else if (rand < 0.3) {
+	} else if (rand < 0.6) {
 		alert("Not out!! Bowler's overstepped, no ball! Play on...");
 		innings.innerText = inningsSoFar + " " + ".";
 		score.innerHTML = parseInt(score.innerHTML) + " (" + (balls) + ")";
