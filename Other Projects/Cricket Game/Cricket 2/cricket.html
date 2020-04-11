@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title>
+</head>
+
+<style>
+
+.grid-container {
+  display: grid;
+  width: 80%;
+  background-color: #006400;
+  font-size: 20px;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+            "x x"  
+            "a b"
+            "c d";
+}
+
+.grid-item {
+  font-weight: bold;
+  font-family: monospace;  
+  color: white;
+  background-color: #006400;
+}
+
+#buttons {
+  grid-area: x; 
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin: 5px;
+
+}
+
+.label1 {
+  grid-area: a;
+}
+
+.innings {
+  grid-area: b;
+}
+
+.label2 {
+  grid-area: c;
+}
+
+.score {
+  grid-area: d;
+}
+
+
+  h1 {
+    width: 80%;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: green;
+    text-align: center;
+  }
+
+  button {
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: #6B8E23;
+    border: 2px solid white;
+    border-radius: 5px;
+
+  }
+
+</style>
+
+<body>
+    <h1>Shit Cricket</h1>
+    <h1>Shot aggression level...</h1>
+
+    <div class="grid-container">
+        <div class = "grid-item" id = "buttons" >
+          <button id="Aggressive" onclick= "delivery(event)">Aggressive</button>
+          <button id="Attacking" onclick= "delivery(event)">Attacking</button>
+          <button id="Positive" onclick= "delivery(event)">Positive</button>
+          <button id="Cautious" onclick= "delivery(event)">Cautious</button>
+          <button id="Defensive" onclick= "delivery(event)">Defensive</button>
+          <button id="Reset" onclick= "reset()">RESET</button>
+        </div>
+        <div class = "grid-item" id = "label1" >Innings:</div>
+        <div class = "grid-item" id = "innings"></div>
+        <div class = "grid-item" id = "label1">Score:</div>
+        <div class = "grid-item" id = "score">0 (0)</div>
+    </div>
+
+<script type="text/javascript" src="cricket.js"></script>
+</body>
+</html>

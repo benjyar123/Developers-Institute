@@ -1,0 +1,26 @@
+#drums {
+/*	background-color: black;*/
+	display: flex;
+	padding-top: 300px;
+}
+.drum {
+	width: 70px;
+	height: 70px;
+	border: 2px solid gold;
+	margin: 10px;
+	color: gold;
+	text-align: center;
+	font-family: fantasy;
+
+}
+
+
+body {
+	background-color: black;
+}
+
+p {
+	font-family: fantasy;
+	font-size: 25px;
+	color: white;
+}
