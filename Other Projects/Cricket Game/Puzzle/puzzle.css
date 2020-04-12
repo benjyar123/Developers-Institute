@@ -38,3 +38,20 @@ h1 {
     margin-top: 5px;
 
   }
+
+.score {
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: #FF33F8;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 520px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+p {
+	text-align: center;
+}

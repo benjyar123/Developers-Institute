@@ -11,14 +11,16 @@ let numbers = ["1", "2", "3", "4", "5", "6", "7", "8"]
 let click = document.getElementById("click"); 
 let ding = document.getElementById("ding"); 
 let win = document.getElementById("win"); 
-
+let newGame = document.getElementById("new"); 
 let grid = document.getElementById("theGrid");
-
+let turnsTaken = document.getElementById("turns");
 
 let matchedPairs = 0;
 let turns = 0;
 let card1 = "X";
 let card2 = "Y";
+
+turnsTaken.innerText = "Turns taken: " + turns;
 
 
 function shuffle(array) {
@@ -47,6 +49,7 @@ function shuffle(array) {
  	if (index1 != index2) {
  		click.play();
  		turns = turns + 1;
+ 		turnsTaken.innerText = "Turns taken: " + turns;
  		let turn1 = document.getElementById(card1)
  		let turn2 = document.getElementById(card2)
  		card1 = "X";
@@ -55,11 +58,12 @@ function shuffle(array) {
  			turn1.style.backgroundImage = "none";
  			turn2.style.backgroundImage = "none";
   		}
-  		setTimeout(turnOver, 1000);
+  		setTimeout(turnOver, 1500);
 
  	} else if (index1 == index2) {
  		ding.play();
  		turns = turns + 1;
+  		turnsTaken.innerText = "Turns taken: " + turns;
  		matchedPairs = matchedPairs +1;
  		card1 = "X";
  		card2 = "Y";
@@ -72,6 +76,14 @@ function shuffle(array) {
 
 function deal () {
 
+	turnsTaken.innerText = "Turns taken: " + turns;
+	win.pause();
+	win.currentTime = 0;
+	newGame.play();
+
+	let cardNumber = (grid.childElementCount);
+	if (cardNumber == 0) {
+
 	shuffle(emojis);
 
 	for (let i = 0; i < 16; i++) {
@@ -83,6 +95,12 @@ function deal () {
 		grid.appendChild(card);
 
 	}
+	} else if (cardNumber > 0) {
+		matchedPairs = 0;
+		turns = 0;
+		removeCards ();
+		deal ();
+	}
 
 }
 
@@ -91,6 +109,15 @@ function turnOver() {
   document.getElementById(card2).style.backgroundImage = null;
 }
 
+
+function removeCards () {
+	let grid = document.getElementById("theGrid");
+	for (let i = 0; i < 17; i++) {
+	grid.removeChild(grid.childNodes[0]);	
+	}
+	
+
+}
 
 
 
