@@ -1,4 +1,4 @@
-document.addEventListener('keyup', (event) => {
+document.addEventListener('keydown', (event) => {
     switch (event.key) {
     	case "a": 
     	boom.currentTime = 0;

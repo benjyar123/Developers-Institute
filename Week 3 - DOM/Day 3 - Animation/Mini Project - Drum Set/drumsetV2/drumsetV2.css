@@ -1,7 +1,8 @@
 #drums {
-/*	background-color: black;*/
 	display: flex;
-	padding-top: 300px;
+	padding-top: 250px;
+	
+	justify-content: center;
 }
 .drum {
 	width: 70px;
@@ -14,9 +15,9 @@
 
 }
 
-
 body {
-	background-color: black;
+	background-image: url("back.jpg");
+	background-size: cover;
 }
 
 p {
