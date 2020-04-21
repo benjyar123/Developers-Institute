@@ -1,4 +1,4 @@
-# # Exercise 2
+# Exercise 2
 # total = 0
 customer = input("Customer name: ")
 staff = input("Staff name: ")

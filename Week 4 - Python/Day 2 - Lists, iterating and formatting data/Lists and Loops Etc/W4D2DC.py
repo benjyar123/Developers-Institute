@@ -1,24 +1,25 @@
 i = "i"
-underscore = "_"
-squiggle = "~"
-arrow = "^"
-colon = ":"
-message = "Happy Birthday"
-age = input("How old are you today?")
-last = age[-1]
-space = " "
-print(underscore * 25)
-print(underscore * (12 - int(last)))
-print(i * int(last))
+age = input("How old are you?")
+last = str(age)[-1]
+candles = (i * int(last))
+underscores = (13 - len(candles))
+top = (" ")
 
-# ___iiiii___
-# |:H: a:p: p:y: |
-# __ | ___________ | __
-# | ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ |
-# |:B: i:r: t:h: d:a: y: |
-# | |
-# ~~~~~~~~~~~~~~~~~~~
+if (13 - len(candles)) % 2 == 0 :
+    underscores = underscores / 2
+    top = ("        " + (int(underscores) * "_") + candles + (int(underscores) * "_"))
+elif (13 - len(candles)) % 2 == 1 :
+    underscores1 = (underscores - 1) / 2
+    underscores2 = (underscores + 1) / 2
+    top = ("        " + (int(underscores1) * "_") + candles + (int(underscores2) * "_"))
 
 
-for letters in message[0:5]:
-    print(letters)
+
+print(top)
+print("       |:H: a:p: p:y:|")
+print("    __ | ___________ | __")
+print("   |^^^^^^^^^^^^^^^^^^^^^|")
+print("   |  :B:i:r:t:h:d:a:y:  |")
+print("   |                     |")
+print("   ~~~~~~~~~~~~~~~~~~~~~~~")
+
