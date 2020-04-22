@@ -28,6 +28,7 @@ store['number_stores'] = 2
 
 # 2.
 print(store["name"] + "'s customers are " + store["type_of_clothes"][0] + ", " + store["type_of_clothes"][1] + " and " + store["type_of_clothes"][2] + ".")
+print(f"Client of zara are: {', '.join([el for el in store['type_of_clothes']])}")
 
 # 3.
 store["country_creation"] = "Spain"
