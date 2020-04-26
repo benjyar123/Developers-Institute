@@ -13,7 +13,3 @@ def convert_to_binary(integer):
     return remainders
 
 print(convert_to_binary(int(input("Input a number to convert to binary..."))))
-
-
-
-
