@@ -20,8 +20,8 @@ def starting_conditions(grid):
     start = "no"
     while start != "yes":
         print("Enter coordinates for cells to add.\nType 'begin' instead of a new x coordinate to start the game.\nRemember demo shapes may be affected if you add additional live cells.\n")
-        print("Maximum x value is: " + str(i))
-        print("Maximum y value is: " + str(j))
+        print("Maximum x value is: " + str(i-1))
+        print("Maximum y value is: " + str(j-1))
         live_cell_x = input("Submit x coordinates of a live cell to add: ")
         if live_cell_x == "begin":
             start = "yes"

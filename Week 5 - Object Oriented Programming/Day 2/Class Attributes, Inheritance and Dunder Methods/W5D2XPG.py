@@ -1,3 +1,5 @@
+# UNFINISHED EXERCISES
+
 # Exercise 1
 
 class Pets():
