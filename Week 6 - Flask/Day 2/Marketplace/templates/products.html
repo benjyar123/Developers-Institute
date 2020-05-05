@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title%}Products Page{%endblock%}
+
+{%block heading%}Products Page{%endblock%}
+
+{%block contentsummary%}Browse our products...{%endblock%}
+
+{%block main%}
+		<h2>Main Content</h2>
+        <p>This sections will use some kind of logic to iterate through bits of the database. Might show...</p>
+
+		{% for x in data %}
+		<div>
+			<h3>{{x["Name"]}}</h3>
+			<p>{{x["Descriptions"]}}Price: {{x["Price"]}} {{x["CurrencyCode"]}}</p>
+			<p><a href=products/{{x["ProductId"]}}>More Details</a></p>
+		</div>
+		{%endfor%}
+
+
+    <p>Maybe there are some neat Bootstrap templates to make it look cool once I work out the logic..</p>
+{%endblock%}
+

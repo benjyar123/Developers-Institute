@@ -18,6 +18,7 @@ def show_user_menu(menu):
     *     Menu           *
     * (a) Add an item    *
     * (d) Delete an item *
+    * (c) Change a price *
     * (v) View the menu  *
     * (x) Exit           *
     **********************
@@ -40,6 +41,11 @@ def show_user_menu(menu):
                 print("Item: " + item)
             elif check == False:
                 print("That item is not in the menu...")
+        elif user_selection == "c":
+            item = input("Which item would you like to change the price for?")
+            new_price = input("What should the new price new?")
+            my_menu_manager.change_price(item, new_price)
+            print("The new price for " + item + " is " + str(new_price))
         elif user_selection == "v":
             show_restaurant_menu(menu)
         elif user_selection == "x":

@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title%}Product Details Page{%endblock%}
+
+{%block heading%}Product Details: {{product["Name"]}}{%endblock%}
+
+{%block contentsummary%}
+
+{% if product["Status"] == "Available" %}
+	<p>This product is currently available. Order while stocks last!</p>
+{% else %}
+	<p>Sorry - this product is currently out of stock.</p>
+{% endif %}
+
+{%endblock%}
+
+{%block main%}
+
+<h5>Product Information</h5>
+<table>
+	<tr>
+		<th></th>
+		<th>Details</th>
+	</tr>
+	<tr>
+		<th>Product Id:</th>
+		<td>{{product["ProductId"]}}</td>
+	</tr>
+	<tr>
+		<th>Supplier:</th>
+		<td>{{product["SupplierName"]}}</td>
+	</tr>
+	<tr>
+		<th>Tax Tariff Code:</th>
+		<td>{{product["TaxTarifCode"]}}</td>
+	</tr>
+	<tr>
+		<th>Quantity:</th>
+		<td>{{product["Quantity"]}}</td>
+	</tr>
+	<tr>
+		<th>Status:</th>
+		<td>{{product["Status"]}}</td>
+	</tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+
+{%endblock%}

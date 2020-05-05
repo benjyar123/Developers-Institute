@@ -13,6 +13,13 @@ class MenuManager():
         new_item = {"name": name, "price": price}
         self.menu["items"].append(new_item)
 
+    def change_price(self, name, price):
+        for x in range(len(self.menu["items"])):
+            if self.menu["items"][x]["name"] == name:
+                self.menu["items"][x]["price"] = price
+                return True
+        return False
+
     def remove_item(self, name):
         for x in range (len(self.menu["items"])):
             if self.menu["items"][x]["name"] == name:

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %} This is the base Title{% endblock %}</title>
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<style type="text/css">
+		h1 {
+			color: blue;
+		}
+
+		.red {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<h1>{%block heading%}MAIN PAGE TITLE{%endblock%}</h1>
+	<p>{%block contentsummary%}SUMMARY OF CONTENT{%endblock%}</p>
+
+	{%block main%}
+	 MAIN CHUNK OF CONTENT
+	{%endblock%}
+
+</body>
+</html>
