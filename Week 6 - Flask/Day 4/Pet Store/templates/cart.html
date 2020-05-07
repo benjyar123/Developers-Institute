@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %} Your Cart {% endblock %}
+{% block heading %} Your Cart {% endblock %}
+{% block content %}
+
+{% for items in cart["pets_in_cart"] %}
+<div class="row">
+    <div class="col-3">
+        <h6>{{data["pets"][items]["name"]}} {{data["pets"][items]["type"]}}:</h6>
+    </div>
+    <div class="col-3">
+        <h6>${{data["pets"][items]["price"]}}:</h6>
+    </div>
+</div>
+{% endfor %}
+<br>
+<div class="row">
+    <div class="col-3">
+        <h6>Total:</h6>
+    </div>
+    <div class="col-3">
+        <h6>${{total}}</h6>
+    </div>
+</div>
+<div class="row">
+       <a href="/clear" class="btn btn-primary">Clear</a>
+</div>
+
+
+
+{% endblock %}

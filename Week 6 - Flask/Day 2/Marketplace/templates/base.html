@@ -16,12 +16,48 @@
 	</style>
 </head>
 <body>
-	<h1>{%block heading%}MAIN PAGE TITLE{%endblock%}</h1>
-	<p>{%block contentsummary%}SUMMARY OF CONTENT{%endblock%}</p>
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Tech Market</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+		  <li class="nav-item">
+			  <a class="nav-link" href="/">Home</a>
+		  </li>
+		  <li class="nav-item">
+			  <a class="nav-link" href="/products">Our Products</a>
+		  </li>
+		  <li class="nav-item">
+			  <a class="nav-link" href="#">Contact</a>
+		  </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</div>
+<div class="container">
+
+	<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+	  <h1 class="display-4"><strong>{%block heading%}MAIN PAGE TITLE{%endblock%}</strong></h1>
+    <p class="lead">{%block contentsummary%}SUMMARY OF CONTENT{%endblock%}</p>
+  </div>
+</div>
+
+
+
+
 
 	{%block main%}
 	 MAIN CHUNK OF CONTENT
 	{%endblock%}
-
+</div>
 </body>
 </html>

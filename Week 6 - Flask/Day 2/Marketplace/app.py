@@ -1,8 +1,10 @@
 import flask
 import json
+
 # import other modules?
 
 app = flask.Flask(__name__)
+
 
 
 @app.route('/')
@@ -36,9 +38,10 @@ def details(product_id):
 			this_product = product
 
 	html = flask.render_template("details.html", product=this_product)
+
 	return html
 
-
+# check section above if there are problem
 
 
 

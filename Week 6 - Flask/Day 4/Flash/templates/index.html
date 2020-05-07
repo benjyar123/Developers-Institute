@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome to home page</h1>
+{% for (category, messages) in get_flashed_messages(with_categories=True)%}
+<p class="text-{{category}}">{{messages}} {{category}}</p>
+{% endfor %}
+
+
+
+
+{% endblock %}
