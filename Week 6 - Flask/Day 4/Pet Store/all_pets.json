@@ -23,6 +23,46 @@
             "image" : "https://images.fineartamerica.com/images-medium-large-5/sun-conure-parrot-sandy-keeton.jpg" ,
             "description": "Talks all the time",
             "price": 2000
+        },
+        {
+            "id" : 3,
+            "name": "New Guinea",
+            "type" : "Crocodile",
+            "image" : "https://media.nationalgeographic.org/assets/photos/279/385/d22fa87f-c6c5-4dc6-b6e1-e03450e9b4d3.jpg" ,
+            "description": "Playful and cuddly",
+            "price": 4350
+        },
+        {
+            "id" : 5,
+            "name": "French Lop",
+            "type" : "Rabbit",
+            "image" : "https://i.pinimg.com/originals/6d/59/1f/6d591fd3484bddd9a8ba52b536374e0b.jpg" ,
+            "description": "Cute long ears and eats a ton of carrots",
+            "price": 750
+        },
+        {
+            "id" : 5,
+            "name": "Siamese Fighting",
+            "type" : "Fish",
+            "image" : "https://i.pinimg.com/originals/fe/5c/0d/fe5c0d9999e2875fc0917103f9d65689.jpg" ,
+            "description": "Appreciates being taken for long walks in a bowl on wheels",
+            "price": 380
+        },
+        {
+            "id" : 6,
+            "name": "Maine",
+            "type" : "Lobster",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/61SkJsWrDDL._SL1080_.jpg" ,
+            "description": "Terrible pet but a delicious snack",
+            "price": 25
+        },
+        {
+            "id" : 7,
+            "name": "Mexican",
+            "type" : "Tarantula",
+            "image" : "https://cdn.rentokil.com/content/local/us-wst/images/desktop/main_tarantula-desk-banner.jpg" ,
+            "description": "Only for the brave",
+            "price": 260
         }
     ]
 }

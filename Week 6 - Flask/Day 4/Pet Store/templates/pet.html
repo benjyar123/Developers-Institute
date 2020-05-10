@@ -3,14 +3,15 @@
 {% block title %}{{pet["name"]}} {{pet["type"]}}{% endblock %}
 {% block heading %}{{pet["name"]}} {{pet["type"]}}{% endblock %}
 {% block content %}
-<div class ="container" style = "align-content: center;">
-<div class="card" style="width: 50%;">
-    <img src={{pet["image"]}} class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">{{pet["description"]}}</p>
-        <a href="add_pet/{{pet["id"]}}" class="btn btn-primary btn-lg btn-block">Add to Cart</a>
+<div class ="row">
+    <div class="col-8">
+        <div class="card" style="width: 50%;">
+            <img src={{pet["image"]}} class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p class="card-text">{{pet["description"]}}</p>
+            <a href="add_pet/{{pet["id"]}}" class="btn btn-primary btn-lg btn-block">Add to Cart</a>
+        </div>
     </div>
-</div>
 </div>
 {% endblock %}

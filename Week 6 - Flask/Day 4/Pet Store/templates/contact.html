@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %} Contact {% endblock %}
+{% block heading %} Contact Us {% endblock %}
+{% block content %}
+
+<form method="POST" action="{{ url_for('contact') }}">
+    {{ form.csrf_token }}
+    <div class="row">
+        <div class="col-1">
+            <strong>{{ form.name.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ form.name(size=30) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <strong>{{ form.email.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ form.email(size=30) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <strong>{{ form.message.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ form.message(rows='10',cols='32') }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-2">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+
+
+
+</form><br>
+
+    <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-3">
+             {% for (category, messages) in get_flashed_messages(with_categories=True) %}
+        <div class="alert alert-{{category}}" role="alert">{{ messages }}</div>
+    {% endfor %}
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
