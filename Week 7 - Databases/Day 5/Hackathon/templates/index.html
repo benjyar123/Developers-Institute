@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block heading %} Welcome to My Pathway{% endblock %}
+{% block content %}
+<h2>About</h2>
+<p>My Pathway is a personalised provisional mapping tool for learners with additional needs.</p>
+<p>At My Pathway we understand that many learners don't make linear progress, and a 'one size fits all' approach to the curriculum simply isn't appropriate for them. Wouldn't it be better if we could design and implement a more personalised curriculum to teach the skills and knowledge our pupils will need most, rather than the stale and generic content of the National Curriculum?</p>
+<p>With My Pathway, schools and families can work together to implement their own engaging and personalised curriculum, underpinned by robust systems for tracking and supporting pupil progress.</p>
+
+<div class="card-deck">
+  <div class="card">
+    <img src="https://www.netclipart.com/pp/m/104-1042997_directions-png-clipart-png-download-different-ways-transparent.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Personal Pathways</h5>
+      <p class="card-text">Every learner is unique, so why do we try to teach them all the same things? With My Pathway you can design personalised learning programmes to meet every pupil's needs. </p>
+        <a href="/classgroups/Rainbow/BuzzLightyear" class="btn btn-primary" style="width: 100%; background: purple; color: white;">My Pathway Example</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.netclipart.com/pp/m/0-5761_teacher-png-teacher-clipart-png.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Support for Teachers</h5>
+      <p class="card-text">Planning activities and tracking pupil progress has never been easier, with our user-friendly package for busy class teachers.</p>
+        <a href="/classgroups" class="btn btn-primary" style="width: 100%; background: purple; color: white;">Learn More</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.pngitem.com/pimgs/m/103-1038284_progress-clipart-png-transparent-png.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Track Progress</h5>
+      <p class="card-text">Log achievements and record progress over time. Our product generates stylish charts for in school data analysis and reports for sending home to families.</p>
+        <a href="/data" class="btn btn-primary" style="width: 100%; background: purple; color: white;">See Demo</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block title %}{{class_index["class_name"]}} Class Pupils {% endblock %}
+
+{% block heading %}{{class_index["class_name"]}} Class{% endblock %}
+{% block content %}
+<h2><strong>Teacher:</strong> {{class_index["teacher"]}}</h2>
+<div class="row">
+    {% for pupil in class_index["pupils"] %}
+    {% if loop.index0 % 4 == 0 %}
+    </div><br>
+    <div class="row">
+{% endif %}
+
+
+
+
+    <div class="col-3 d-flex align-items-stretch">
+        <div class="card pupilcard mx-auto" style="width: 100%;">
+          <img src="https://i.pinimg.com/originals/e3/90/25/e39025d3a1a23a571200f710a2b49205.png" class="card-img-top" alt="...">
+          <div class="card-body pupilcard-body d-flex flex-column">
+              <h5 class="card-title">{{pupil["first_name"]}} {{pupil["last_name"]}}</h5>
+            <a href="/classgroups/{{class_index['class_name']}}/{{pupil['first_name']}}{{pupil['last_name']}}" class="btn btn-primary mt-auto">See My Pathway</a>
+          </div>
+        </div>
+    </div>
+{% endfor %}
+
+
+    </div>
+
+
+<hr>
+<h2>Add Pupil</h2>
+<form method="POST" action="{{ url_for('classgroups', class_name=class_index['class_name'])}}">
+    {{ add_pupil_form.csrf_token }}
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_pupil_form.first_name.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_pupil_form.first_name(size=30) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_pupil_form.last_name.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_pupil_form.last_name(size=30) }}</div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_pupil_form.birth_date.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_pupil_form.birth_date(size=30) }}</div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+            <input type="submit" value="Add Pupil">
+        </div>
+    </div>
+</form>
+
+{% endblock %}

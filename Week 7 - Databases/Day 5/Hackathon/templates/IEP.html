@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+
+{% block title %}{{pupil_index["first_name"]}} {{pupil_index["last_name"]}} Pathway Plan{% endblock %}
+
+
+{% block heading %}My Pathway Plan{% endblock %}
+{% block content %}
+
+<div class="row">
+    <div class="col-12">
+        <h3><strong>{{pupil_index["first_name"]}} {{pupil_index["last_name"]}}</strong></h3>
+        <p class="lead">This is {{pupil_index["first_name"]}} {{pupil_index["last_name"]}}'s Pathway Plan - a unique
+            educational programme designed to meet the needs and interests of {{pupil_index["first_name"]}}. It contains
+            current and historic learning targets, details of the provision in place to support progress, and teacher
+            comments and notes to record achievements.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-1"><strong>Class:</strong></div>
+    <div class="col-2"><a href="/classgroups/{{class_index['class_name']}}">{{class_index["class_name"]}}</a></div>
+    <div class="col-2"><strong>Teacher:</strong></div>
+    <div class="col-2">{{class_index["teacher"]}}</div>
+</div>
+<div class="row">
+    <div class="col-1"><strong>D.O.B:</strong></div>
+    <div class="col-2">{{pupil_index["birth_date"]}}</div>
+    <div class="col-2"><strong>Year Group:</strong></div>
+    <div class="col-2">{{class_index["year_group"]}}</div>
+</div>
+<br><br>
+<h3><strong>Targets and Provision</strong></h3><br>
+<strong>
+    <div class="row">
+        <div class="col-1">ID</div>
+        <div class="col-2">Subject Area</div>
+        <div class="col-3">Target</div>
+        <div class="col-4">Provision</div>
+        <div class="col-2">Status</div>
+    </div>
+</strong>
+<hr>
+{% for target in pupil_index["targets"] %}
+<div class="row">
+    <div class="col-1">{{target["target_id"]}}</div>
+    <div class="col-2">{{target["area"]}}</div>
+    <div class="col-3">{{target["target"]}}</div>
+    <div class="col-4">{{target["provision"]}}</div>
+    {% if target["status"] == "Partially Met" %}
+    <div class="col-2" style="color:white; background: yellow; font-size:18px; text-align: center; height: 100%;">
+        <strong>{{target["status"]}}</strong></div>
+    {% elif target["status"] == "Met" %}
+    <div class="col-2" style="color:white; background: green; font-size:18px; text-align: center; height: 100%;">
+        <strong>{{target["status"]}}</strong></div>
+    {% elif target["status"] == "Not Met" %}
+    <div class="col-2" style="color:white; background: orange; font-size:18px; text-align: center; height: 100%;"><strong>{{target["status"]}}</strong>
+    </div>
+    {% elif target["status"] == "New Target" %}
+    <div class="col-2" style="color:black; background: white; font-size:18px; text-align: center; height: 100%; border: 1px solid black;"><strong>{{target["status"]}}</strong>
+    </div>
+    {% endif %}
+
+
+
+
+
+
+
+</div>
+<hr>
+{% endfor %}
+<br><br>
+
+<h3><strong>Achievement Record</strong></h3><br>
+<strong>
+    <div class="row">
+        <div class="col-3">Date</div>
+        <div class="col-3">Title</div>
+        <div class="col-6">Comment</div>
+    </div>
+</strong>
+<hr>
+
+{% for note in pupil_index["notes"] %}
+<div class="row">
+    <div class="col-3">{{note["date"]}}</div>
+    <div class="col-3">{{note["title"]}}</div>
+    <div class="col-6">{{note["comment"]}}</div>
+</div>
+<hr>
+{% endfor %}
+<br><br>
+
+
+<h3><strong>Add Target</strong></h3><br>
+<form method="POST"
+      action="{{ url_for('IEP', class_name=class_index['class_name'], first_name=pupil_index['first_name'], last_name=pupil_index['last_name'])}}">
+    {{ add_target_form.csrf_token }}
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_target_form.area.label }}</strong>
+        </div>
+        <div class="col-10">
+            {{ add_target_form.area(size=84) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_target_form.target.label }}</strong>
+        </div>
+        <div class="col-10">
+            {{ add_target_form.target(size=84) }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_target_form.provision.label }}</strong>
+        </div>
+        <div class="col-10">
+            {{ add_target_form.provision(size=84) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_target_form.status.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_target_form.status}}
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2">
+            <input type="submit" value="Add Target">
+        </div>
+    </div>
+</form><br>
+<hr><br><br>
+
+
+<h3><strong>Add Achievement</strong></h3><br>
+<form method="POST"
+      action="{{ url_for('IEP', class_name=class_index['class_name'], first_name=pupil_index['first_name'], last_name=pupil_index['last_name'])}}">
+    {{ add_achievement_form.csrf_token }}
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_achievement_form.date.label }}</strong>
+        </div>
+        <div class="col-10">
+            {{ add_achievement_form.date(size=84) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_achievement_form.title.label }}</strong>
+        </div>
+        <div class="col-10">
+            {{ add_achievement_form.title(size=84) }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_achievement_form.comment.label }}</strong>
+        </div>
+        <div class="col-10">
+            {{ add_achievement_form.comment(size=84) }}
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2">
+            <input type="submit" value="Add Achievement">
+        </div>
+    </div>
+</form>
+<hr>
+
+
+{% endblock %}
+

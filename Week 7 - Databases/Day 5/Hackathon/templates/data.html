@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}Data{% endblock %}
+
+{% block heading %}Whole School Data{% endblock %}
+{% block content %}
+
+{% for class in data["classes"] %}
+<h2>{{class["class_name"]}} Class</h2><br>
+<table class="table">
+  <thead>
+    <tr>
+        <th scope="col">Pupil Name</th>
+        <th scope="col">Birth Date</th>
+        <th scope="col" style="font-size:18px; text-align: center; height: 100%;">Current Targets</th>
+        <th scope="col" style="font-size:18px; text-align: center; height: 100%;">New Targets</th>
+        <th scope="col" style="color:white; background: orange; font-size:18px; text-align: center; height: 100%;">Unmet Targets</th>
+        <th scope="col" style="color:white; background: yellow; font-size:18px; text-align: center; height: 100%;">Partially Met Targets</th>
+        <th scope="col" style="color:white; background: green; font-size:18px; text-align: center; height: 100%;">Met Targets</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for pupil in class["pupils"] %}
+    <tr>
+        <td scope="col">{{pupil["first_name"]}} {{pupil["last_name"]}}</td>
+        <td scope="col">{{pupil["birth_date"]}}</td>
+        <td scope="col" style="text-align: center; height: 100%;">{{pupil["stats"]["target_count"]}}</td>
+        <td scope="col" style="text-align: center; height: 100%;">{{pupil["stats"]["new_targets"]}}</td>
+        <td scope="col" style="text-align: center; height: 100%;">{{pupil["stats"]["unmet_targets"]}}</td>
+        <td scope="col" style="text-align: center; height: 100%;">{{pupil["stats"]["partially_met_targets"]}}</td>
+        <td scope="col" style="text-align: center; height: 100%;">{{pupil["stats"]["met_targets"]}}</td>
+    </tr>
+  {% endfor %}
+  <tr>
+      <th scope="col">{{class["class_name"]}} Class Total</th>
+      <th scope="col"></th>
+      <th scope="col" style="text-align: center; height: 100%;">{{class["stats"]["target_count"]}}</th>
+      <th scope="col" style="text-align: center; height: 100%;">{{class["stats"]["new_targets"]}}</th>
+      <th scope="col" style="text-align: center; height: 100%;">{{class["stats"]["unmet_targets"]}}</th>
+      <th scope="col" style="text-align: center; height: 100%;">{{class["stats"]["partially_met_targets"]}}</th>
+      <th scope="col" style="text-align: center; height: 100%;">{{class["stats"]["met_targets"]}}</th>
+  </tr>
+  </tbody>
+</table>
+<br><br>
+{% endfor %}
+
+
+
+
+
+
+{% endblock %}

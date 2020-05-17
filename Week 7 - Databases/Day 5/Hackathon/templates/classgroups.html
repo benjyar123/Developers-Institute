@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %} Class Groups {% endblock %}
+
+{% block heading %} Class Groups {% endblock %}
+{% block content %}
+
+<div class="row">
+{% for class in data["classes"] %}
+    {% if loop.index0 % 4 == 0 %}
+    </div><br>
+    <div class="row">
+{% endif %}
+
+    <div class="col-3 d-flex align-items-stretch">
+        <div class="card mx-auto mycard" style="width: 100%;">
+          <img src="{{class['image']}}" class="card-img-top" alt="...">
+          <div class="card-body mycard-body d-flex flex-column">
+              <h3 class="card-title">{{class["class_name"]}} Class</h3>
+              <p class="card-text">Year {{class["year_group"]}}</p>
+                 <a href="classgroups/{{class['class_name']}}" class="btn btn-primary mt-auto">{{class["class_name"]}} Pupils</a>
+              <br>
+              <a href="classgroups/delete/{{class['class_name']}}" onclick="if (!confirm('Are you sure you want to permanently delete {{class['class_name']}} class?')) return false;">Delete</a>
+          </div>
+        </div>
+    </div>
+{% endfor %}
+    </div><hr>
+
+<h2>Add Class</h2>
+<form method="POST" action="{{ url_for('class_groups') }}">
+    {{ add_class_form.csrf_token }}
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_class_form.name.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_class_form.name(size=84) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_class_form.teacher.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_class_form.teacher(size=84) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_class_form.year.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_class_form.year(size=84) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <strong>{{ add_class_form.image.label }}</strong>
+        </div>
+        <div class="col-2">
+            {{ add_class_form.image(size=84) }}
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+            <input type="submit" value="Add Class">
+        </div>
+    </div>
+</form>
+<hr>
+
+
+{% endblock %}

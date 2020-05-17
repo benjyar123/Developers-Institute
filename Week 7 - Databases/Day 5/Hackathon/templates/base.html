@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %} PAGE TITLE {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+    	<style type="text/css">
+    	html {
+    	font-family: Times New Roman;
+    	}
+		.btn {
+			background-color: purple;
+			border: none;
+			color: yellow;
+			justify-self: center;
+		}
+		.navbar-custom {
+		    background-color: purple;
+		}
+		.mycard {
+		    padding: 10px;
+		    border: 5px solid purple;
+		    border-radius: 10px;
+		    background: yellow;
+		    position: relative;
+		    min-height: 420px;
+		    align-items: center;
+
+		}
+		.pupilcard {
+		    padding: 10px;
+		    border: 5px solid purple;
+		    border-radius: 10px;
+		    background: turquoise;
+		    position: relative;
+		    min-height: 420px;
+		    align-items: center;
+		}
+        .mycard-body {
+            position: absolute;
+            bottom: 0;
+            align-items: center;
+        }
+        .jumbotron {
+            border: 5px solid purple;
+		    border-radius: 10px;
+		    background: yellow;
+        }
+        img {
+            max-height: 50%;
+            max-width: 100%;
+
+        }
+
+		body {
+
+		    font-family: 'Balsamiq Sans', cursive;
+		}
+
+		h1 {
+		color: purple;
+		text-align: center;
+		}
+		h2, h5 {
+		color: purple;
+		}
+
+	</style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <a class="navbar-brand" href="#">My Pathway</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	            <ul class="navbar-nav mr-auto">
+		            <li class="nav-item">
+			            <a class="nav-link" href="/">Home</a>
+		            </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/classgroups">Class Groups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/data">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <div class="container">
+        <br>
+        <h1>{% block heading %} MAIN PAGE HEADING {% endblock %}</h1>
+    </div>
+    <div class="container">
+    {% block content %} MAIN PAGE CONTENT {% endblock %}
+    </div>
+</body>
+</html>
+
