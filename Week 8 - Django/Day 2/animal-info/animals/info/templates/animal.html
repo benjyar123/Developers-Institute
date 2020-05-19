@@ -1,0 +1,17 @@
+{% extends 'index.html' %}}
+
+
+
+{% block content %}
+<h1>This is the animal page</h1>
+<h2>Animal Name: {{animal.name}}</h2>
+<ul>
+    <li>Number of Legs: {{animal.legs}}</li>
+    <li>Height: {{animal.height}}</li>
+    <li>Weight: {{animal.weight}}</li>
+    <li>Speed: {{animal.speed}}</li>
+    <li>Family: {{animal.family.name}}</li>
+</ul>
+
+
+{% endblock %}

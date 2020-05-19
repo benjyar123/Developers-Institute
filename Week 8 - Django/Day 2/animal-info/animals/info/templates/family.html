@@ -1,0 +1,14 @@
+{% extends 'index.html' %}}
+
+
+
+{% block content %}
+<h1>This is the family page</h1>
+<h3>Family Type: {{family.name}}</h3>
+<h3>Family ID: {{family.id}}</h3>
+<h3>Members of this family...</h3>
+{% for animal in family.animal_set.all %}
+<p>{{animal.name}}</p>
+{% endfor %}
+
+{% endblock %}
