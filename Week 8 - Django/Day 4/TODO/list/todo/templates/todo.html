@@ -1,0 +1,46 @@
+{% extends 'base.html' %}}
+
+
+{% block header %}
+{{heading}}
+{% endblock %}
+
+
+{% block content %}
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Details</th>
+        <th>Done?</th>
+        <th>Created Date</th>
+        <th>Completion Date</th>
+        <th>Deadline</th>
+        <th>Category</th>
+    </tr>
+    {% for job in jobs %}
+    <tr>
+        <td>{{job.title}}</td>
+        <td>{{job.details}}</td>
+        <td>{{job.has_been_done}}</td>
+        <td>{{job.date_completion}}</td>
+        <td>{{job.deadline_date}}</td>
+        <td>{{job.deadline_date}}</td>
+        <td><img src="{{job.category.image}}" height="30px" width="30px"></td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+<hr>
+<h2>Add new job to list...</h2>
+
+
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Submit form">
+</form>
+
+
+{% endblock %}
