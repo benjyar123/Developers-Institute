@@ -1,20 +1,13 @@
 from faker import Faker
-from .models import Customer
+from rent.models import Customer, Rental, Vehicle
+import random
 
 fake = Faker()
-customer = Customer()
 
-print (fake)
-print (customer)
-
-customer.first_name = fake.first_name()
-customer.last_name = fake.email()
-customer.phone_number = fake.phone_number()
-customer.address = fake.address()
-customer.city = fake.city()
-customer.country = fake.county()
-
-print (fake)
-print (customer)
-#
-print("hello")
+for i in range (15):
+    rental = Rental()
+    rental.rental_date = fake.date_between(start_date='-15d', end_date='today')
+    print(rental.rental_date)
+    rental.return_date = fake.date_between(start_date='-13d', end_date='today')
+    rental.customer = Customer.objects.get(id=random.randint(1, 20))
+    rental.vehicle = Vehicle.objects.get(id=i)
