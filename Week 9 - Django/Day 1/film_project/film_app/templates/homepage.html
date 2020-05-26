@@ -1,0 +1,53 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+{% for film in films %}
+                <div class="card" style="width: 50rem;">
+                    {% if film.image %}
+                    <img src="{{film.image}}" class="card-img-top" alt="...">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{film.title | upper}} directed by {{film.director | upper}}</h5>
+                        <table class="table">
+                            <tr>
+                                <th>Categories</th>
+                                <th>Release Date</th>
+                                <th>Made In</th>
+                                <th>Available In</th>
+                            </tr>
+                            <tr>
+                                <td>{% for category in film.category.all %}{{category}}<br>{% endfor %}</td>
+                                <td>{{film.release_date | date:"d M Y"}}</td>
+                                <td>{{film.created_in_country}}</td>
+                                <td>{% for country in film.available_in_countries.all %}{{country}}<br>{% endfor %}</td>
+                            </tr>
+                        </table>
+                        <hr>
+                        <h5>Reviews</h5>
+                        {% for review in film.film_reviews.all %}
+                        <h6>{{ review.user.username }} - {{ review.rating }} stars!
+                        <p>{{ review.comment }}</p>
+                        {% endfor %}
+                        <hr>
+                        {% if user.is_authenticated %}
+                        <h5 class="card-title">Add Review</h5>
+                        <form method="POST">
+                        {% csrf_token %}
+                        {{form | crispy}}
+                            <input type="submit" value="Submit form">
+                            <input type="text" name="film_id" value="{{film.id}}" hidden>
+                        </form><hr>
+                        {% endif %}
+                        {% if user.is_superuser %}
+                        <div class="row">
+                            <div class="col-3"><a href="editFilm/{{film.id}}" class="btn btn-primary">Edit Film Details</a><br><br></div>
+                            <div class="col-3"><a href="editDirector/{{film.director.id}}" class="btn btn-primary">Edit Director Details</a></div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div><br>
+{% endfor %}
+{% endblock %}
