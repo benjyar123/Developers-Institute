@@ -1,0 +1,8257 @@
+{
+  "api": {
+    "results": 110,
+    "players": [
+      {
+        "player_id": 19393,
+        "player_name": "J. Onomah",
+        "firstname": "Josh",
+        "lastname": "Onomah",
+        "number": null,
+        "position": "Midfielder",
+        "age": 23,
+        "birth_date": "27/04/1997",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "185 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 113,
+        "player_name": "G. N&apos;Koudou",
+        "firstname": "Georges-Kevin",
+        "lastname": "N'Koudou Mbida",
+        "number": null,
+        "position": "Midfielder",
+        "age": 25,
+        "birth_date": "13/02/1995",
+        "birth_place": "Versailles",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "172 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 2,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 159,
+        "player_name": "H. Lloris",
+        "firstname": "Hugo",
+        "lastname": "Lloris",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 34,
+        "birth_date": "26/12/1986",
+        "birth_place": "Nice",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "188 cm",
+        "weight": "82 kg",
+        "injured": null,
+        "rating": "6.958333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 12,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 16,
+          "assists": 0
+        },
+        "passes": {
+          "total": 191,
+          "key": 0,
+          "accuracy": 66
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 6,
+          "won": 4
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 12,
+          "minutes_played": 998,
+          "lineups": 12
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 159,
+        "player_name": "H. Lloris",
+        "firstname": "Hugo",
+        "lastname": "Lloris",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 34,
+        "birth_date": "26/12/1986",
+        "birth_place": "Nice",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "188 cm",
+        "weight": "82 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 159,
+        "player_name": "H. Lloris",
+        "firstname": "Hugo",
+        "lastname": "Lloris",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 34,
+        "birth_date": "26/12/1986",
+        "birth_place": "Nice",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "188 cm",
+        "weight": "82 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 2,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 3,
+          "assists": 0
+        },
+        "passes": {
+          "total": 28,
+          "key": 0,
+          "accuracy": 55
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 180,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 159,
+        "player_name": "H. Lloris",
+        "firstname": "Hugo",
+        "lastname": "Lloris",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 34,
+        "birth_date": "26/12/1986",
+        "birth_place": "Nice",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "188 cm",
+        "weight": "82 kg",
+        "injured": null,
+        "rating": "6.200000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 3,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 10,
+          "assists": 0
+        },
+        "passes": {
+          "total": 47,
+          "key": 0,
+          "accuracy": 81
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 360,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 160,
+        "player_name": "M. Vorm",
+        "firstname": "Michel",
+        "lastname": "Vorm",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 37,
+        "birth_date": "20/10/1983",
+        "birth_place": "Nieuwegein",
+        "birth_country": "Netherlands",
+        "nationality": "Netherlands",
+        "height": "183 cm",
+        "weight": "84 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 9
+        }
+      },
+      {
+        "player_id": 160,
+        "player_name": "M. Vorm",
+        "firstname": "Michel",
+        "lastname": "Vorm",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 37,
+        "birth_date": "20/10/1983",
+        "birth_place": "Nieuwegein",
+        "birth_country": "Netherlands",
+        "nationality": "Netherlands",
+        "height": "183 cm",
+        "weight": "84 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 1,
+          "assists": 0
+        },
+        "passes": {
+          "total": 22,
+          "key": 0,
+          "accuracy": 73
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 120,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 160,
+        "player_name": "M. Vorm",
+        "firstname": "Michel",
+        "lastname": "Vorm",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 37,
+        "birth_date": "20/10/1983",
+        "birth_place": "Nieuwegein",
+        "birth_country": "Netherlands",
+        "nationality": "Netherlands",
+        "height": "183 cm",
+        "weight": "84 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 158,
+        "player_name": "P. Gazzaniga",
+        "firstname": "Paulo Dino",
+        "lastname": "Gazzaniga",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 28,
+        "birth_date": "02/01/1992",
+        "birth_place": "Murphy",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "196 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "6.883333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 27,
+          "assists": 0
+        },
+        "passes": {
+          "total": 271,
+          "key": 1,
+          "accuracy": 59
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 8,
+          "won": 6
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 18,
+          "minutes_played": 1612,
+          "lineups": 17
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 12
+        }
+      },
+      {
+        "player_id": 158,
+        "player_name": "P. Gazzaniga",
+        "firstname": "Paulo Dino",
+        "lastname": "Gazzaniga",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 28,
+        "birth_date": "02/01/1992",
+        "birth_place": "Murphy",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "196 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "7.300000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 4,
+          "assists": 0
+        },
+        "passes": {
+          "total": 16,
+          "key": 0,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 158,
+        "player_name": "P. Gazzaniga",
+        "firstname": "Paulo Dino",
+        "lastname": "Gazzaniga",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 28,
+        "birth_date": "02/01/1992",
+        "birth_place": "Murphy",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "196 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "6.850000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 2,
+          "assists": 0
+        },
+        "passes": {
+          "total": 30,
+          "key": 0,
+          "accuracy": 73
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 180,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 158,
+        "player_name": "P. Gazzaniga",
+        "firstname": "Paulo Dino",
+        "lastname": "Gazzaniga",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 28,
+        "birth_date": "02/01/1992",
+        "birth_place": "Murphy",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "196 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "7.275000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 5,
+          "assists": 0
+        },
+        "passes": {
+          "total": 72,
+          "key": 0,
+          "accuracy": 68
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 360,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 161,
+        "player_name": "A. Whiteman",
+        "firstname": "Alfie",
+        "lastname": "Whiteman",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 22,
+        "birth_date": "02/10/1998",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "189 cm",
+        "weight": "84 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 161,
+        "player_name": "A. Whiteman",
+        "firstname": "Alfie",
+        "lastname": "Whiteman",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 22,
+        "birth_date": "02/10/1998",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "189 cm",
+        "weight": "84 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 170,
+        "player_name": "J. Vertonghen",
+        "firstname": "Jan",
+        "lastname": "Vertonghen",
+        "number": null,
+        "position": "Defender",
+        "age": 33,
+        "birth_date": "24/04/1987",
+        "birth_place": "Sint-Niklaas",
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "189 cm",
+        "weight": "87 kg",
+        "injured": null,
+        "rating": "6.944444",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 1,
+        "shots": {
+          "total": 4,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 858,
+          "key": 3,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 39,
+          "blocks": 10,
+          "interceptions": 31
+        },
+        "duels": {
+          "total": 158,
+          "won": 110
+        },
+        "dribbles": {
+          "attempts": 8,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 16,
+          "committed": 6
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 19,
+          "minutes_played": 1545,
+          "lineups": 18
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 3,
+          "bench": 7
+        }
+      },
+      {
+        "player_id": 170,
+        "player_name": "J. Vertonghen",
+        "firstname": "Jan",
+        "lastname": "Vertonghen",
+        "number": null,
+        "position": "Defender",
+        "age": 33,
+        "birth_date": "24/04/1987",
+        "birth_place": "Sint-Niklaas",
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "189 cm",
+        "weight": "87 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 170,
+        "player_name": "J. Vertonghen",
+        "firstname": "Jan",
+        "lastname": "Vertonghen",
+        "number": null,
+        "position": "Defender",
+        "age": 33,
+        "birth_date": "24/04/1987",
+        "birth_place": "Sint-Niklaas",
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "189 cm",
+        "weight": "87 kg",
+        "injured": null,
+        "rating": "6.925000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 3,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 197,
+          "key": 0,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 8,
+          "blocks": 1,
+          "interceptions": 7
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 354,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 170,
+        "player_name": "J. Vertonghen",
+        "firstname": "Jan",
+        "lastname": "Vertonghen",
+        "number": null,
+        "position": "Defender",
+        "age": 33,
+        "birth_date": "24/04/1987",
+        "birth_place": "Sint-Niklaas",
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "189 cm",
+        "weight": "87 kg",
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 172,
+          "key": 0,
+          "accuracy": 89
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 3,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 253,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 168,
+        "player_name": "D. S\u00e1nchez",
+        "firstname": "Davinson",
+        "lastname": "S\u00e1nchez Mina",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "12/06/1996",
+        "birth_place": "Caloto",
+        "birth_country": "Colombia",
+        "nationality": "Colombia",
+        "height": "187 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "6.822727",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 3
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 1057,
+          "key": 1,
+          "accuracy": 83
+        },
+        "tackles": {
+          "total": 41,
+          "blocks": 19,
+          "interceptions": 31
+        },
+        "duels": {
+          "total": 178,
+          "won": 104
+        },
+        "dribbles": {
+          "attempts": 9,
+          "success": 7
+        },
+        "fouls": {
+          "drawn": 9,
+          "committed": 18
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 22,
+          "minutes_played": 1890,
+          "lineups": 21
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 5
+        }
+      },
+      {
+        "player_id": 168,
+        "player_name": "D. S\u00e1nchez",
+        "firstname": "Davinson",
+        "lastname": "S\u00e1nchez Mina",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "12/06/1996",
+        "birth_place": "Caloto",
+        "birth_country": "Colombia",
+        "nationality": "Colombia",
+        "height": "187 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "7.300000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 94,
+          "key": 0,
+          "accuracy": 91
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 168,
+        "player_name": "D. S\u00e1nchez",
+        "firstname": "Davinson",
+        "lastname": "S\u00e1nchez Mina",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "12/06/1996",
+        "birth_place": "Caloto",
+        "birth_country": "Colombia",
+        "nationality": "Colombia",
+        "height": "187 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "6.566666",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 129,
+          "key": 0,
+          "accuracy": 65
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 1,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 300,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 168,
+        "player_name": "D. S\u00e1nchez",
+        "firstname": "Davinson",
+        "lastname": "S\u00e1nchez Mina",
+        "number": null,
+        "position": "Defender",
+        "age": 24,
+        "birth_date": "12/06/1996",
+        "birth_place": "Caloto",
+        "birth_country": "Colombia",
+        "nationality": "Colombia",
+        "height": "187 cm",
+        "weight": "81 kg",
+        "injured": null,
+        "rating": "7.080000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 326,
+          "key": 1,
+          "accuracy": 87
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 3,
+          "interceptions": 6
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 7
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 450,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 166,
+        "player_name": "J. Foyth",
+        "firstname": "Juan Marcos",
+        "lastname": "Foyth",
+        "number": null,
+        "position": "Defender",
+        "age": 22,
+        "birth_date": "12/01/1998",
+        "birth_place": "La Plata",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "179 cm",
+        "weight": "69 kg",
+        "injured": null,
+        "rating": "6.466666",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 46,
+          "key": 1,
+          "accuracy": 61
+        },
+        "tackles": {
+          "total": 7,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 19,
+          "won": 12
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 66,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 1,
+          "bench": 9
+        }
+      },
+      {
+        "player_id": 166,
+        "player_name": "J. Foyth",
+        "firstname": "Juan Marcos",
+        "lastname": "Foyth",
+        "number": null,
+        "position": "Defender",
+        "age": 22,
+        "birth_date": "12/01/1998",
+        "birth_place": "La Plata",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "179 cm",
+        "weight": "69 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 166,
+        "player_name": "J. Foyth",
+        "firstname": "Juan Marcos",
+        "lastname": "Foyth",
+        "number": null,
+        "position": "Defender",
+        "age": 22,
+        "birth_date": "12/01/1998",
+        "birth_place": "La Plata",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "179 cm",
+        "weight": "69 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 166,
+        "player_name": "J. Foyth",
+        "firstname": "Juan Marcos",
+        "lastname": "Foyth",
+        "number": null,
+        "position": "Defender",
+        "age": 22,
+        "birth_date": "12/01/1998",
+        "birth_place": "La Plata",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "179 cm",
+        "weight": "69 kg",
+        "injured": null,
+        "rating": "6.933333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 115,
+          "key": 1,
+          "accuracy": 90
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 2,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 6,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 197,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 149550,
+        "player_name": "J. Tanganga",
+        "firstname": "Japhet",
+        "lastname": "Tanganga",
+        "number": null,
+        "position": "Defender",
+        "age": 21,
+        "birth_date": "31/03/1999",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "184 cm",
+        "weight": null,
+        "injured": null,
+        "rating": "6.950000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 3,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 163,
+          "key": 1,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 17,
+          "blocks": 6,
+          "interceptions": 11
+        },
+        "duels": {
+          "total": 77,
+          "won": 45
+        },
+        "dribbles": {
+          "attempts": 7,
+          "success": 6
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 8
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 526,
+          "lineups": 6
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 5
+        }
+      },
+      {
+        "player_id": 149550,
+        "player_name": "J. Tanganga",
+        "firstname": "Japhet",
+        "lastname": "Tanganga",
+        "number": null,
+        "position": "Defender",
+        "age": 21,
+        "birth_date": "31/03/1999",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "184 cm",
+        "weight": null,
+        "injured": null,
+        "rating": "6.800000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 67,
+          "key": 0,
+          "accuracy": 90
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 66,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 149550,
+        "player_name": "J. Tanganga",
+        "firstname": "Japhet",
+        "lastname": "Tanganga",
+        "number": null,
+        "position": "Defender",
+        "age": 21,
+        "birth_date": "31/03/1999",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "184 cm",
+        "weight": null,
+        "injured": null,
+        "rating": "7.233333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 116,
+          "key": 1,
+          "accuracy": 76
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 2,
+          "interceptions": 8
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 6,
+          "success": 4
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 270,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 149550,
+        "player_name": "J. Tanganga",
+        "firstname": "Japhet",
+        "lastname": "Tanganga",
+        "number": null,
+        "position": "Defender",
+        "age": 21,
+        "birth_date": "31/03/1999",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "184 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 154800,
+        "player_name": "M. Fagan-Walcott",
+        "firstname": "Malachi",
+        "lastname": "Fagan-Walcott",
+        "number": null,
+        "position": "Defender",
+        "age": 18,
+        "birth_date": "11/03/2002",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 154800,
+        "player_name": "M. Fagan-Walcott",
+        "firstname": "Malachi",
+        "lastname": "Fagan-Walcott",
+        "number": null,
+        "position": "Defender",
+        "age": 18,
+        "birth_date": "11/03/2002",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 176,
+        "player_name": "E. Lamela",
+        "firstname": "Erik",
+        "lastname": "Lamela",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "04/03/1992",
+        "birth_place": "Florida",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "181 cm",
+        "weight": "79 kg",
+        "injured": null,
+        "rating": "6.788235",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 24,
+          "on": 9
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 353,
+          "key": 17,
+          "accuracy": 82
+        },
+        "tackles": {
+          "total": 17,
+          "blocks": 2,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 148,
+          "won": 55
+        },
+        "dribbles": {
+          "attempts": 28,
+          "success": 18
+        },
+        "fouls": {
+          "drawn": 17,
+          "committed": 19
+        },
+        "cards": {
+          "yellow": 3,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 17,
+          "minutes_played": 936,
+          "lineups": 10
+        },
+        "substitutes": {
+          "in": 7,
+          "out": 7,
+          "bench": 8
+        }
+      },
+      {
+        "player_id": 176,
+        "player_name": "E. Lamela",
+        "firstname": "Erik",
+        "lastname": "Lamela",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "04/03/1992",
+        "birth_place": "Florida",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "181 cm",
+        "weight": "79 kg",
+        "injured": null,
+        "rating": "7.200000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 12,
+          "key": 0,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 12,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 176,
+        "player_name": "E. Lamela",
+        "firstname": "Erik",
+        "lastname": "Lamela",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "04/03/1992",
+        "birth_place": "Florida",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "181 cm",
+        "weight": "79 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 93,
+          "key": 7,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 5,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 12,
+          "success": 9
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 5
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 208,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 176,
+        "player_name": "E. Lamela",
+        "firstname": "Erik",
+        "lastname": "Lamela",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "04/03/1992",
+        "birth_place": "Florida",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "181 cm",
+        "weight": "79 kg",
+        "injured": null,
+        "rating": "6.925000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 8,
+          "on": 4
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 65,
+          "key": 3,
+          "accuracy": 90
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 6,
+          "success": 4
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 229,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 175,
+        "player_name": "E. Dier",
+        "firstname": "Eric",
+        "lastname": "Dier",
+        "number": null,
+        "position": "Midfielder",
+        "age": 26,
+        "birth_date": "15/01/1994",
+        "birth_place": "Cheltenham",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "88 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 4,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 436,
+          "key": 6,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 19,
+          "blocks": 7,
+          "interceptions": 11
+        },
+        "duels": {
+          "total": 111,
+          "won": 61
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 11
+        },
+        "cards": {
+          "yellow": 4,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 14,
+          "minutes_played": 892,
+          "lineups": 10
+        },
+        "substitutes": {
+          "in": 4,
+          "out": 2,
+          "bench": 17
+        }
+      },
+      {
+        "player_id": 175,
+        "player_name": "E. Dier",
+        "firstname": "Eric",
+        "lastname": "Dier",
+        "number": null,
+        "position": "Midfielder",
+        "age": 26,
+        "birth_date": "15/01/1994",
+        "birth_place": "Cheltenham",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "88 kg",
+        "injured": null,
+        "rating": "7.900000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 1,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 85,
+          "key": 1,
+          "accuracy": 87
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 175,
+        "player_name": "E. Dier",
+        "firstname": "Eric",
+        "lastname": "Dier",
+        "number": null,
+        "position": "Midfielder",
+        "age": 26,
+        "birth_date": "15/01/1994",
+        "birth_place": "Cheltenham",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "88 kg",
+        "injured": null,
+        "rating": "7.150000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 3,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 227,
+          "key": 1,
+          "accuracy": 67
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 3,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 6
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 387,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 175,
+        "player_name": "E. Dier",
+        "firstname": "Eric",
+        "lastname": "Dier",
+        "number": null,
+        "position": "Midfielder",
+        "age": 26,
+        "birth_date": "15/01/1994",
+        "birth_place": "Cheltenham",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "88 kg",
+        "injured": null,
+        "rating": "6.400000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 1,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 129,
+          "key": 0,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 312,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 2,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 1578,
+        "player_name": "G. Lo Celso",
+        "firstname": "Giovani",
+        "lastname": "Lo Celso",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "09/04/1996",
+        "birth_place": "Rosario",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "177 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "6.666666",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 12,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 456,
+          "key": 17,
+          "accuracy": 87
+        },
+        "tackles": {
+          "total": 29,
+          "blocks": 3,
+          "interceptions": 4
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 34,
+          "success": 21
+        },
+        "fouls": {
+          "drawn": 26,
+          "committed": 16
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 19,
+          "minutes_played": 868,
+          "lineups": 7
+        },
+        "substitutes": {
+          "in": 12,
+          "out": 2,
+          "bench": 16
+        }
+      },
+      {
+        "player_id": 1578,
+        "player_name": "G. Lo Celso",
+        "firstname": "Giovani",
+        "lastname": "Lo Celso",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "09/04/1996",
+        "birth_place": "Rosario",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "177 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "7.225000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 9,
+          "on": 3
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 151,
+          "key": 8,
+          "accuracy": 79
+        },
+        "tackles": {
+          "total": 10,
+          "blocks": 1,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 17,
+          "success": 10
+        },
+        "fouls": {
+          "drawn": 7,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 334,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 1578,
+        "player_name": "G. Lo Celso",
+        "firstname": "Giovani",
+        "lastname": "Lo Celso",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "09/04/1996",
+        "birth_place": "Rosario",
+        "birth_country": "Argentina",
+        "nationality": "Argentina",
+        "height": "177 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "7.220000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 8,
+          "on": 4
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 182,
+          "key": 7,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 9,
+          "blocks": 1,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 22,
+          "success": 14
+        },
+        "fouls": {
+          "drawn": 8,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 332,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 3,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 19032,
+        "player_name": "R. Sessegnon",
+        "firstname": "Kouassi Ryan",
+        "lastname": "Sessegnon",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "18/05/2000",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "178 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.520000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 123,
+          "key": 2,
+          "accuracy": 67
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 0,
+          "interceptions": 3
+        },
+        "duels": {
+          "total": 33,
+          "won": 18
+        },
+        "dribbles": {
+          "attempts": 6,
+          "success": 4
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 341,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 1,
+          "bench": 8
+        }
+      },
+      {
+        "player_id": 19032,
+        "player_name": "R. Sessegnon",
+        "firstname": "Kouassi Ryan",
+        "lastname": "Sessegnon",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "18/05/2000",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "178 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.933333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 4,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 94,
+          "key": 2,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 7,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 8,
+          "success": 8
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 236,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 19032,
+        "player_name": "R. Sessegnon",
+        "firstname": "Kouassi Ryan",
+        "lastname": "Sessegnon",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "18/05/2000",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "178 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.850000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 21,
+          "key": 3,
+          "accuracy": 83
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 195,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 172,
+        "player_name": "D. Alli",
+        "firstname": "Bamidele",
+        "lastname": "Alli",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "11/04/1996",
+        "birth_place": "Milton Keynes",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.850000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 40,
+          "on": 19
+        },
+        "goals": {
+          "total": 8,
+          "conceded": 0,
+          "assists": 4
+        },
+        "passes": {
+          "total": 579,
+          "key": 22,
+          "accuracy": 75
+        },
+        "tackles": {
+          "total": 31,
+          "blocks": 3,
+          "interceptions": 16
+        },
+        "duels": {
+          "total": 247,
+          "won": 109
+        },
+        "dribbles": {
+          "attempts": 64,
+          "success": 29
+        },
+        "fouls": {
+          "drawn": 32,
+          "committed": 11
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 1,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 22,
+          "minutes_played": 1764,
+          "lineups": 20
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 8,
+          "bench": 5
+        }
+      },
+      {
+        "player_id": 172,
+        "player_name": "D. Alli",
+        "firstname": "Bamidele",
+        "lastname": "Alli",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "11/04/1996",
+        "birth_place": "Milton Keynes",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "7.300000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 3,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 45,
+          "key": 2,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 172,
+        "player_name": "D. Alli",
+        "firstname": "Bamidele",
+        "lastname": "Alli",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "11/04/1996",
+        "birth_place": "Milton Keynes",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.540000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 111,
+          "key": 8,
+          "accuracy": 83
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 8,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 5,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 308,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 2,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 172,
+        "player_name": "D. Alli",
+        "firstname": "Bamidele",
+        "lastname": "Alli",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "11/04/1996",
+        "birth_place": "Milton Keynes",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.783333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 6,
+          "on": 3
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 160,
+          "key": 7,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 5,
+          "blocks": 2,
+          "interceptions": 4
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 12,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 7
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 7,
+          "minutes_played": 522,
+          "lineups": 7
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 6,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 178,
+        "player_name": "Lucas Moura",
+        "firstname": "Lucas",
+        "lastname": "Rodrigues Moura da Silva",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "13/08/1992",
+        "birth_place": "S\u00e3o Paulo",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "172 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.737037",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 45,
+          "on": 12
+        },
+        "goals": {
+          "total": 4,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 420,
+          "key": 27,
+          "accuracy": 73
+        },
+        "tackles": {
+          "total": 32,
+          "blocks": 2,
+          "interceptions": 13
+        },
+        "duels": {
+          "total": 379,
+          "won": 179
+        },
+        "dribbles": {
+          "attempts": 84,
+          "success": 52
+        },
+        "fouls": {
+          "drawn": 48,
+          "committed": 16
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 27,
+          "minutes_played": 1681,
+          "lineups": 18
+        },
+        "substitutes": {
+          "in": 9,
+          "out": 8,
+          "bench": 11
+        }
+      },
+      {
+        "player_id": 178,
+        "player_name": "Lucas Moura",
+        "firstname": "Lucas",
+        "lastname": "Rodrigues Moura da Silva",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "13/08/1992",
+        "birth_place": "S\u00e3o Paulo",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "172 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.920000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 12,
+          "on": 6
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 96,
+          "key": 1,
+          "accuracy": 67
+        },
+        "tackles": {
+          "total": 9,
+          "blocks": 0,
+          "interceptions": 7
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 20,
+          "success": 10
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 8
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 401,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 178,
+        "player_name": "Lucas Moura",
+        "firstname": "Lucas",
+        "lastname": "Rodrigues Moura da Silva",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "13/08/1992",
+        "birth_place": "S\u00e3o Paulo",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "172 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "7.200000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 4,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 25,
+          "key": 2,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 6,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 178,
+        "player_name": "Lucas Moura",
+        "firstname": "Lucas",
+        "lastname": "Rodrigues Moura da Silva",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "13/08/1992",
+        "birth_place": "S\u00e3o Paulo",
+        "birth_country": "Brazil",
+        "nationality": "Brazil",
+        "height": "172 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.800000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 6,
+          "on": 2
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 57,
+          "key": 1,
+          "accuracy": 72
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 11,
+          "success": 7
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 6
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 401,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 3,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 180,
+        "player_name": "O. Skipp",
+        "firstname": "Oliver",
+        "lastname": "Skipp",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "16/09/2000",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.600000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 27,
+          "key": 0,
+          "accuracy": 97
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 2,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 8,
+          "won": 1
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 56,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 1,
+          "bench": 15
+        }
+      },
+      {
+        "player_id": 180,
+        "player_name": "O. Skipp",
+        "firstname": "Oliver",
+        "lastname": "Skipp",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "16/09/2000",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 59,
+          "key": 1,
+          "accuracy": 90
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 120,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 180,
+        "player_name": "O. Skipp",
+        "firstname": "Oliver",
+        "lastname": "Skipp",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "16/09/2000",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 52,
+          "key": 1,
+          "accuracy": 89
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 78,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 180,
+        "player_name": "O. Skipp",
+        "firstname": "Oliver",
+        "lastname": "Skipp",
+        "number": null,
+        "position": "Midfielder",
+        "age": 20,
+        "birth_date": "16/09/2000",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "175 cm",
+        "weight": "70 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 16,
+          "key": 0,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 1,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 29,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 569,
+        "player_name": "Gedson Fernandes",
+        "firstname": "Gedson",
+        "lastname": "Carvalho Fernandes",
+        "number": null,
+        "position": "Midfielder",
+        "age": 21,
+        "birth_date": "09/01/1999",
+        "birth_place": "S\u00e3o Tom\u00e9",
+        "birth_country": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+        "nationality": "Portugal",
+        "height": "178 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "6.675000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 22,
+          "key": 2,
+          "accuracy": 61
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 6,
+          "won": 3
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 40,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 4,
+          "out": 0,
+          "bench": 7
+        }
+      },
+      {
+        "player_id": 569,
+        "player_name": "Gedson Fernandes",
+        "firstname": "Gedson",
+        "lastname": "Carvalho Fernandes",
+        "number": null,
+        "position": "Midfielder",
+        "age": 21,
+        "birth_date": "09/01/1999",
+        "birth_place": "S\u00e3o Tom\u00e9",
+        "birth_country": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+        "nationality": "Portugal",
+        "height": "178 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "6.633333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 47,
+          "key": 2,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 14,
+          "success": 9
+        },
+        "fouls": {
+          "drawn": 5,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 158,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 1,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 569,
+        "player_name": "Gedson Fernandes",
+        "firstname": "Gedson",
+        "lastname": "Carvalho Fernandes",
+        "number": null,
+        "position": "Midfielder",
+        "age": 21,
+        "birth_date": "09/01/1999",
+        "birth_place": "S\u00e3o Tom\u00e9",
+        "birth_country": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+        "nationality": "Portugal",
+        "height": "178 cm",
+        "weight": "68 kg",
+        "injured": null,
+        "rating": "6.200000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 4,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 28,
+          "key": 0,
+          "accuracy": 63
+        },
+        "tackles": {
+          "total": 5,
+          "blocks": 1,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 74,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 162076,
+        "player_name": "D. Cirkin",
+        "firstname": "Dennis",
+        "lastname": "Cirkin",
+        "number": null,
+        "position": "Midfielder",
+        "age": 18,
+        "birth_date": "06/04/2002",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 162076,
+        "player_name": "D. Cirkin",
+        "firstname": "Dennis",
+        "lastname": "Cirkin",
+        "number": null,
+        "position": "Midfielder",
+        "age": 18,
+        "birth_date": "06/04/2002",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": null,
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 186,
+        "player_name": "Son Heung-Min",
+        "firstname": "Heung-Min",
+        "lastname": "Son",
+        "number": null,
+        "position": "Attacker",
+        "age": 28,
+        "birth_date": "08/07/1992",
+        "birth_place": "Chuncheon",
+        "birth_country": "Korea Republic",
+        "nationality": "Korea Republic",
+        "height": "183 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "7.095238",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 64,
+          "on": 29
+        },
+        "goals": {
+          "total": 9,
+          "conceded": 0,
+          "assists": 7
+        },
+        "passes": {
+          "total": 450,
+          "key": 31,
+          "accuracy": 83
+        },
+        "tackles": {
+          "total": 16,
+          "blocks": 0,
+          "interceptions": 11
+        },
+        "duels": {
+          "total": 234,
+          "won": 88
+        },
+        "dribbles": {
+          "attempts": 85,
+          "success": 49
+        },
+        "fouls": {
+          "drawn": 17,
+          "committed": 11
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 2
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 0,
+          "missed": 1,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 21,
+          "minutes_played": 1749,
+          "lineups": 20
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 5,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 186,
+        "player_name": "Son Heung-Min",
+        "firstname": "Heung-Min",
+        "lastname": "Son",
+        "number": null,
+        "position": "Attacker",
+        "age": 28,
+        "birth_date": "08/07/1992",
+        "birth_place": "Chuncheon",
+        "birth_country": "Korea Republic",
+        "nationality": "Korea Republic",
+        "height": "183 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.800000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 9,
+          "key": 2,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 24,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 186,
+        "player_name": "Son Heung-Min",
+        "firstname": "Heung-Min",
+        "lastname": "Son",
+        "number": null,
+        "position": "Attacker",
+        "age": 28,
+        "birth_date": "08/07/1992",
+        "birth_place": "Chuncheon",
+        "birth_country": "Korea Republic",
+        "nationality": "Korea Republic",
+        "height": "183 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "7.200000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 7,
+          "on": 2
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 84,
+          "key": 8,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 13,
+          "success": 7
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 3
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 1,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 299,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 186,
+        "player_name": "Son Heung-Min",
+        "firstname": "Heung-Min",
+        "lastname": "Son",
+        "number": null,
+        "position": "Attacker",
+        "age": 28,
+        "birth_date": "08/07/1992",
+        "birth_place": "Chuncheon",
+        "birth_country": "Korea Republic",
+        "nationality": "Korea Republic",
+        "height": "183 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "7.500000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 18,
+          "on": 11
+        },
+        "goals": {
+          "total": 5,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 104,
+          "key": 5,
+          "accuracy": 76
+        },
+        "tackles": {
+          "total": 8,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 21,
+          "success": 13
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 365,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 2,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 244,
+        "player_name": "S. Bergwijn",
+        "firstname": "Steven",
+        "lastname": "Bergwijn",
+        "number": null,
+        "position": "Attacker",
+        "age": 23,
+        "birth_date": "08/10/1997",
+        "birth_place": "Amsterdam",
+        "birth_country": "Netherlands",
+        "nationality": "Netherlands",
+        "height": "178 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.980000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 7,
+          "on": 3
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 104,
+          "key": 7,
+          "accuracy": 84
+        },
+        "tackles": {
+          "total": 6,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 47,
+          "won": 22
+        },
+        "dribbles": {
+          "attempts": 11,
+          "success": 3
+        },
+        "fouls": {
+          "drawn": 7,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 418,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 3,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 244,
+        "player_name": "S. Bergwijn",
+        "firstname": "Steven",
+        "lastname": "Bergwijn",
+        "number": null,
+        "position": "Attacker",
+        "age": 23,
+        "birth_date": "08/10/1997",
+        "birth_place": "Amsterdam",
+        "birth_country": "Netherlands",
+        "nationality": "Netherlands",
+        "height": "178 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "6.900000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 18,
+          "key": 0,
+          "accuracy": 100
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 54,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 244,
+        "player_name": "S. Bergwijn",
+        "firstname": "Steven",
+        "lastname": "Bergwijn",
+        "number": null,
+        "position": "Attacker",
+        "age": 23,
+        "birth_date": "08/10/1997",
+        "birth_place": "Amsterdam",
+        "birth_country": "Netherlands",
+        "nationality": "Netherlands",
+        "height": "178 cm",
+        "weight": "78 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 3,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 17,
+          "key": 1,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 149551,
+        "player_name": "T. Parrott",
+        "firstname": "Troy",
+        "lastname": "Parrott",
+        "number": null,
+        "position": "Attacker",
+        "age": 18,
+        "birth_date": "04/02/2002",
+        "birth_place": "Dublin",
+        "birth_country": "Republic of Ireland",
+        "nationality": "Republic of Ireland",
+        "height": "185 cm",
+        "weight": null,
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 4,
+          "key": 0,
+          "accuracy": 50
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 2,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 5,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 149551,
+        "player_name": "T. Parrott",
+        "firstname": "Troy",
+        "lastname": "Parrott",
+        "number": null,
+        "position": "Attacker",
+        "age": 18,
+        "birth_date": "04/02/2002",
+        "birth_place": "Dublin",
+        "birth_country": "Republic of Ireland",
+        "nationality": "Republic of Ireland",
+        "height": "185 cm",
+        "weight": null,
+        "injured": null,
+        "rating": "6.500000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 4,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 19,
+          "key": 1,
+          "accuracy": 79
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 66,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 149551,
+        "player_name": "T. Parrott",
+        "firstname": "Troy",
+        "lastname": "Parrott",
+        "number": null,
+        "position": "Attacker",
+        "age": 18,
+        "birth_date": "04/02/2002",
+        "birth_place": "Dublin",
+        "birth_country": "Republic of Ireland",
+        "nationality": "Republic of Ireland",
+        "height": "185 cm",
+        "weight": null,
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 7,
+          "key": 0,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 24,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 149551,
+        "player_name": "T. Parrott",
+        "firstname": "Troy",
+        "lastname": "Parrott",
+        "number": null,
+        "position": "Attacker",
+        "age": 18,
+        "birth_date": "04/02/2002",
+        "birth_place": "Dublin",
+        "birth_country": "Republic of Ireland",
+        "nationality": "Republic of Ireland",
+        "height": "185 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 171,
+        "player_name": "K. Walker-Peters",
+        "firstname": "Kyle",
+        "lastname": "Walker-Peters",
+        "number": null,
+        "position": "Defender",
+        "age": 23,
+        "birth_date": "13/04/1997",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "173 cm",
+        "weight": "62 kg",
+        "injured": null,
+        "rating": "6.300000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 19,
+          "key": 0,
+          "accuracy": 54
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 10,
+          "won": 7
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 3
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 242,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 171,
+        "player_name": "K. Walker-Peters",
+        "firstname": "Kyle",
+        "lastname": "Walker-Peters",
+        "number": null,
+        "position": "Defender",
+        "age": 23,
+        "birth_date": "13/04/1997",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "173 cm",
+        "weight": "62 kg",
+        "injured": null,
+        "rating": "7.500000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 40,
+          "key": 2,
+          "accuracy": 90
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 171,
+        "player_name": "K. Walker-Peters",
+        "firstname": "Kyle",
+        "lastname": "Walker-Peters",
+        "number": null,
+        "position": "Defender",
+        "age": 23,
+        "birth_date": "13/04/1997",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "173 cm",
+        "weight": "62 kg",
+        "injured": null,
+        "rating": "5.800000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 21,
+          "key": 1,
+          "accuracy": 75
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 1,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 5,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 156428,
+        "player_name": "B. Austin",
+        "firstname": "Brandon",
+        "lastname": "Austin",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 21,
+        "birth_date": "08/01/1999",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 156428,
+        "player_name": "B. Austin",
+        "firstname": "Brandon",
+        "lastname": "Austin",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 21,
+        "birth_date": "08/01/1999",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 156428,
+        "player_name": "B. Austin",
+        "firstname": "Brandon",
+        "lastname": "Austin",
+        "number": null,
+        "position": "Goalkeeper",
+        "age": 21,
+        "birth_date": "08/01/1999",
+        "birth_place": null,
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": null,
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 174,
+        "player_name": "C. Eriksen",
+        "firstname": "Christian",
+        "lastname": "Dannemann Eriksen",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "14/02/1992",
+        "birth_place": "Middelfart",
+        "birth_country": "Denmark",
+        "nationality": "Denmark",
+        "height": "182 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.847368",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 26,
+          "on": 9
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 541,
+          "key": 25,
+          "accuracy": 75
+        },
+        "tackles": {
+          "total": 19,
+          "blocks": 1,
+          "interceptions": 12
+        },
+        "duels": {
+          "total": 83,
+          "won": 31
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 9
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 20,
+          "minutes_played": 1091,
+          "lineups": 10
+        },
+        "substitutes": {
+          "in": 10,
+          "out": 4,
+          "bench": 13
+        }
+      },
+      {
+        "player_id": 174,
+        "player_name": "C. Eriksen",
+        "firstname": "Christian",
+        "lastname": "Dannemann Eriksen",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "14/02/1992",
+        "birth_place": "Middelfart",
+        "birth_country": "Denmark",
+        "nationality": "Denmark",
+        "height": "182 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.800000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 25,
+          "key": 2,
+          "accuracy": 86
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 24,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 174,
+        "player_name": "C. Eriksen",
+        "firstname": "Christian",
+        "lastname": "Dannemann Eriksen",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "14/02/1992",
+        "birth_place": "Middelfart",
+        "birth_country": "Denmark",
+        "nationality": "Denmark",
+        "height": "182 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "7.100000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 120,
+          "key": 3,
+          "accuracy": 82
+        },
+        "tackles": {
+          "total": 1,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 180,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 174,
+        "player_name": "C. Eriksen",
+        "firstname": "Christian",
+        "lastname": "Dannemann Eriksen",
+        "number": null,
+        "position": "Midfielder",
+        "age": 28,
+        "birth_date": "14/02/1992",
+        "birth_place": "Middelfart",
+        "birth_country": "Denmark",
+        "nationality": "Denmark",
+        "height": "182 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "7.180000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 8,
+          "on": 5
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 137,
+          "key": 11,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 295,
+          "lineups": 2
+        },
+        "substitutes": {
+          "in": 3,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 162,
+        "player_name": "T. Alderweireld",
+        "firstname": "Toby",
+        "lastname": "Alderweireld",
+        "number": null,
+        "position": "Defender",
+        "age": 31,
+        "birth_date": "02/03/1989",
+        "birth_place": "Wilrijk",
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "187 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "6.940740",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 1,
+        "shots": {
+          "total": 12,
+          "on": 3
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 1402,
+          "key": 12,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 33,
+          "blocks": 28,
+          "interceptions": 26
+        },
+        "duels": {
+          "total": 194,
+          "won": 96
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 16
+        },
+        "cards": {
+          "yellow": 4,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 27,
+          "minutes_played": 2418,
+          "lineups": 27
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 162,
+        "player_name": "T. Alderweireld",
+        "firstname": "Toby",
+        "lastname": "Alderweireld",
+        "number": null,
+        "position": "Defender",
+        "age": 31,
+        "birth_date": "02/03/1989",
+        "birth_place": "Wilrijk",
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "187 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "6.933333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 107,
+          "key": 0,
+          "accuracy": 75
+        },
+        "tackles": {
+          "total": 3,
+          "blocks": 3,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 270,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 162,
+        "player_name": "T. Alderweireld",
+        "firstname": "Toby",
+        "lastname": "Alderweireld",
+        "number": null,
+        "position": "Defender",
+        "age": 31,
+        "birth_date": "02/03/1989",
+        "birth_place": "Wilrijk",
+        "birth_country": "Belgium",
+        "nationality": "Belgium",
+        "height": "187 cm",
+        "weight": "90 kg",
+        "injured": null,
+        "rating": "6.540000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 244,
+          "key": 1,
+          "accuracy": 84
+        },
+        "tackles": {
+          "total": 4,
+          "blocks": 2,
+          "interceptions": 4
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 540,
+          "lineups": 6
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 164,
+        "player_name": "B. Davies",
+        "firstname": "Ben",
+        "lastname": "Davies",
+        "number": null,
+        "position": "Defender",
+        "age": 27,
+        "birth_date": "24/04/1993",
+        "birth_place": "Neath",
+        "birth_country": "Wales",
+        "nationality": "Wales",
+        "height": "181 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.766666",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 1,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 254,
+          "key": 5,
+          "accuracy": 73
+        },
+        "tackles": {
+          "total": 14,
+          "blocks": 6,
+          "interceptions": 9
+        },
+        "duels": {
+          "total": 84,
+          "won": 50
+        },
+        "dribbles": {
+          "attempts": 9,
+          "success": 5
+        },
+        "fouls": {
+          "drawn": 6,
+          "committed": 11
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 9,
+          "minutes_played": 631,
+          "lineups": 7
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 2,
+          "bench": 8
+        }
+      },
+      {
+        "player_id": 164,
+        "player_name": "B. Davies",
+        "firstname": "Ben",
+        "lastname": "Davies",
+        "number": null,
+        "position": "Defender",
+        "age": 27,
+        "birth_date": "24/04/1993",
+        "birth_place": "Neath",
+        "birth_country": "Wales",
+        "nationality": "Wales",
+        "height": "181 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 47,
+          "key": 1,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 164,
+        "player_name": "B. Davies",
+        "firstname": "Ben",
+        "lastname": "Davies",
+        "number": null,
+        "position": "Defender",
+        "age": 27,
+        "birth_date": "24/04/1993",
+        "birth_place": "Neath",
+        "birth_country": "Wales",
+        "nationality": "Wales",
+        "height": "181 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.900000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 143,
+          "key": 4,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 1,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 1,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 3,
+          "minutes_played": 270,
+          "lineups": 3
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 167,
+        "player_name": "D. Rose",
+        "firstname": "Danny",
+        "lastname": "Rose",
+        "number": null,
+        "position": "Defender",
+        "age": 30,
+        "birth_date": "02/07/1990",
+        "birth_place": "Doncaster",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "173 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.600000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 129,
+          "key": 1,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 7,
+          "blocks": 1,
+          "interceptions": 4
+        },
+        "duels": {
+          "total": 31,
+          "won": 17
+        },
+        "dribbles": {
+          "attempts": 3,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 5,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 12,
+          "minutes_played": 894,
+          "lineups": 10
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 3,
+          "bench": 5
+        }
+      },
+      {
+        "player_id": 167,
+        "player_name": "D. Rose",
+        "firstname": "Danny",
+        "lastname": "Rose",
+        "number": null,
+        "position": "Defender",
+        "age": 30,
+        "birth_date": "02/07/1990",
+        "birth_place": "Doncaster",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "173 cm",
+        "weight": "72 kg",
+        "injured": null,
+        "rating": "6.625000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 141,
+          "key": 2,
+          "accuracy": 79
+        },
+        "tackles": {
+          "total": 8,
+          "blocks": 1,
+          "interceptions": 8
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 1
+        },
+        "fouls": {
+          "drawn": 10,
+          "committed": 7
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 360,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 182,
+        "player_name": "H. Winks",
+        "firstname": "Harry",
+        "lastname": "Winks",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "02/02/1996",
+        "birth_place": "Hemel Hempstead",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "178 cm",
+        "weight": "65 kg",
+        "injured": null,
+        "rating": "6.776190",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 1,
+        "shots": {
+          "total": 10,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 1132,
+          "key": 13,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 30,
+          "blocks": 7,
+          "interceptions": 23
+        },
+        "duels": {
+          "total": 141,
+          "won": 74
+        },
+        "dribbles": {
+          "attempts": 19,
+          "success": 13
+        },
+        "fouls": {
+          "drawn": 20,
+          "committed": 15
+        },
+        "cards": {
+          "yellow": 8,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 23,
+          "minutes_played": 1592,
+          "lineups": 19
+        },
+        "substitutes": {
+          "in": 4,
+          "out": 9,
+          "bench": 8
+        }
+      },
+      {
+        "player_id": 182,
+        "player_name": "H. Winks",
+        "firstname": "Harry",
+        "lastname": "Winks",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "02/02/1996",
+        "birth_place": "Hemel Hempstead",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "178 cm",
+        "weight": "65 kg",
+        "injured": null,
+        "rating": "6.920000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 216,
+          "key": 1,
+          "accuracy": 84
+        },
+        "tackles": {
+          "total": 13,
+          "blocks": 3,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 4,
+          "success": 4
+        },
+        "fouls": {
+          "drawn": 3,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 407,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 182,
+        "player_name": "H. Winks",
+        "firstname": "Harry",
+        "lastname": "Winks",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "02/02/1996",
+        "birth_place": "Hemel Hempstead",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "178 cm",
+        "weight": "65 kg",
+        "injured": null,
+        "rating": "6.650000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 226,
+          "key": 3,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 7,
+          "blocks": 1,
+          "interceptions": 7
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 9,
+          "success": 7
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 441,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 184,
+        "player_name": "H. Kane",
+        "firstname": "Harry",
+        "lastname": "Kane",
+        "number": null,
+        "position": "Attacker",
+        "age": 27,
+        "birth_date": "28/07/1993",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "86 kg",
+        "injured": null,
+        "rating": "7.255000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 13,
+        "shots": {
+          "total": 56,
+          "on": 24
+        },
+        "goals": {
+          "total": 11,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 262,
+          "key": 20,
+          "accuracy": 66
+        },
+        "tackles": {
+          "total": 11,
+          "blocks": 2,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 277,
+          "won": 120
+        },
+        "dribbles": {
+          "attempts": 43,
+          "success": 23
+        },
+        "fouls": {
+          "drawn": 32,
+          "committed": 26
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 2,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 20,
+          "minutes_played": 1780,
+          "lineups": 20
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 2,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 184,
+        "player_name": "H. Kane",
+        "firstname": "Harry",
+        "lastname": "Kane",
+        "number": null,
+        "position": "Attacker",
+        "age": 27,
+        "birth_date": "28/07/1993",
+        "birth_place": "London",
+        "birth_country": "England",
+        "nationality": "England",
+        "height": "188 cm",
+        "weight": "86 kg",
+        "injured": null,
+        "rating": "7.980000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 3,
+        "shots": {
+          "total": 23,
+          "on": 10
+        },
+        "goals": {
+          "total": 6,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 74,
+          "key": 5,
+          "accuracy": 75
+        },
+        "tackles": {
+          "total": 2,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 15,
+          "success": 8
+        },
+        "fouls": {
+          "drawn": 7,
+          "committed": 4
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 1,
+          "commited": 0,
+          "success": 2,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 450,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 662,
+        "player_name": "T. Ndomb\u00e8l\u00e9",
+        "firstname": "Tanguy",
+        "lastname": "Ndomb\u00e8l\u00e9 Alvaro",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "28/12/1996",
+        "birth_place": "Longjumeau",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "181 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.868421",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 9,
+          "on": 4
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 495,
+          "key": 12,
+          "accuracy": 85
+        },
+        "tackles": {
+          "total": 23,
+          "blocks": 3,
+          "interceptions": 13
+        },
+        "duels": {
+          "total": 161,
+          "won": 94
+        },
+        "dribbles": {
+          "attempts": 48,
+          "success": 38
+        },
+        "fouls": {
+          "drawn": 28,
+          "committed": 13
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 19,
+          "minutes_played": 947,
+          "lineups": 12
+        },
+        "substitutes": {
+          "in": 7,
+          "out": 10,
+          "bench": 9
+        }
+      },
+      {
+        "player_id": 662,
+        "player_name": "T. Ndomb\u00e8l\u00e9",
+        "firstname": "Tanguy",
+        "lastname": "Ndomb\u00e8l\u00e9 Alvaro",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "28/12/1996",
+        "birth_place": "Longjumeau",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "181 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.850000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 33,
+          "key": 0,
+          "accuracy": 79
+        },
+        "tackles": {
+          "total": 5,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 7,
+          "success": 3
+        },
+        "fouls": {
+          "drawn": 2,
+          "committed": 2
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 100,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 1,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 662,
+        "player_name": "T. Ndomb\u00e8l\u00e9",
+        "firstname": "Tanguy",
+        "lastname": "Ndomb\u00e8l\u00e9 Alvaro",
+        "number": null,
+        "position": "Midfielder",
+        "age": 24,
+        "birth_date": "28/12/1996",
+        "birth_place": "Longjumeau",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "181 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "7.233333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 4,
+          "on": 3
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 204,
+          "key": 8,
+          "accuracy": 87
+        },
+        "tackles": {
+          "total": 8,
+          "blocks": 0,
+          "interceptions": 6
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 22,
+          "success": 17
+        },
+        "fouls": {
+          "drawn": 5,
+          "committed": 6
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 339,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 2,
+          "bench": 3
+        }
+      },
+      {
+        "player_id": 179,
+        "player_name": "M. Sissoko",
+        "firstname": "Moussa",
+        "lastname": "Sissoko",
+        "number": null,
+        "position": "Midfielder",
+        "age": 31,
+        "birth_date": "16/08/1989",
+        "birth_place": "Le Blanc-Mesnil",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "187 cm",
+        "weight": "83 kg",
+        "injured": null,
+        "rating": "6.550000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 13,
+          "on": 3
+        },
+        "goals": {
+          "total": 2,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 794,
+          "key": 11,
+          "accuracy": 80
+        },
+        "tackles": {
+          "total": 22,
+          "blocks": 3,
+          "interceptions": 13
+        },
+        "duels": {
+          "total": 190,
+          "won": 85
+        },
+        "dribbles": {
+          "attempts": 48,
+          "success": 31
+        },
+        "fouls": {
+          "drawn": 10,
+          "committed": 32
+        },
+        "cards": {
+          "yellow": 6,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 1,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 20,
+          "minutes_played": 1690,
+          "lineups": 19
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 2,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 179,
+        "player_name": "M. Sissoko",
+        "firstname": "Moussa",
+        "lastname": "Sissoko",
+        "number": null,
+        "position": "Midfielder",
+        "age": 31,
+        "birth_date": "16/08/1989",
+        "birth_place": "Le Blanc-Mesnil",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "187 cm",
+        "weight": "83 kg",
+        "injured": null,
+        "rating": null,
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 0,
+          "key": 0,
+          "accuracy": 0
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 0,
+          "minutes_played": 0,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 179,
+        "player_name": "M. Sissoko",
+        "firstname": "Moussa",
+        "lastname": "Sissoko",
+        "number": null,
+        "position": "Midfielder",
+        "age": 31,
+        "birth_date": "16/08/1989",
+        "birth_place": "Le Blanc-Mesnil",
+        "birth_country": "France",
+        "nationality": "France",
+        "height": "187 cm",
+        "weight": "83 kg",
+        "injured": null,
+        "rating": "6.683333",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 222,
+          "key": 2,
+          "accuracy": 88
+        },
+        "tackles": {
+          "total": 9,
+          "blocks": 0,
+          "interceptions": 5
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 14,
+          "success": 7
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 5
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 6,
+          "minutes_played": 417,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 181,
+        "player_name": "V. Wanyama",
+        "firstname": "Victor",
+        "lastname": "Wanyama",
+        "number": null,
+        "position": "Midfielder",
+        "age": 29,
+        "birth_date": "25/06/1991",
+        "birth_place": "Nairobi",
+        "birth_country": "Kenya",
+        "nationality": "Kenya",
+        "height": "188 cm",
+        "weight": "80 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 17,
+          "key": 0,
+          "accuracy": 44
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 0
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 2,
+          "success": 2
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 1,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 2,
+          "minutes_played": 23,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 0,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 181,
+        "player_name": "V. Wanyama",
+        "firstname": "Victor",
+        "lastname": "Wanyama",
+        "number": null,
+        "position": "Midfielder",
+        "age": 29,
+        "birth_date": "25/06/1991",
+        "birth_place": "Nairobi",
+        "birth_country": "Kenya",
+        "nationality": "Kenya",
+        "height": "188 cm",
+        "weight": "80 kg",
+        "injured": null,
+        "rating": "6.800000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "League Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 2,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 67,
+          "key": 0,
+          "accuracy": 88
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 2
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 0,
+          "committed": 1
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 90,
+          "lineups": 1
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 0
+        }
+      },
+      {
+        "player_id": 181,
+        "player_name": "V. Wanyama",
+        "firstname": "Victor",
+        "lastname": "Wanyama",
+        "number": null,
+        "position": "Midfielder",
+        "age": 29,
+        "birth_date": "25/06/1991",
+        "birth_place": "Nairobi",
+        "birth_country": "Kenya",
+        "nationality": "Kenya",
+        "height": "188 cm",
+        "weight": "80 kg",
+        "injured": null,
+        "rating": "6.700000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 0,
+          "on": 0
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 0
+        },
+        "passes": {
+          "total": 5,
+          "key": 0,
+          "accuracy": 71
+        },
+        "tackles": {
+          "total": 0,
+          "blocks": 0,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 0,
+          "success": 0
+        },
+        "fouls": {
+          "drawn": 1,
+          "committed": 0
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 1,
+          "minutes_played": 9,
+          "lineups": 0
+        },
+        "substitutes": {
+          "in": 1,
+          "out": 0,
+          "bench": 2
+        }
+      },
+      {
+        "player_id": 163,
+        "player_name": "S. Aurier",
+        "firstname": "Serge",
+        "lastname": "Aurier",
+        "number": null,
+        "position": "Defender",
+        "age": 28,
+        "birth_date": "24/12/1992",
+        "birth_place": "Ouragahio",
+        "birth_country": "C\u00f4te d'Ivoire",
+        "nationality": "C\u00f4te d'Ivoire",
+        "height": "176 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "7.000000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "Premier League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 11,
+          "on": 4
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 4
+        },
+        "passes": {
+          "total": 708,
+          "key": 28,
+          "accuracy": 77
+        },
+        "tackles": {
+          "total": 74,
+          "blocks": 6,
+          "interceptions": 37
+        },
+        "duels": {
+          "total": 306,
+          "won": 164
+        },
+        "dribbles": {
+          "attempts": 57,
+          "success": 36
+        },
+        "fouls": {
+          "drawn": 10,
+          "committed": 30
+        },
+        "cards": {
+          "yellow": 2,
+          "yellowred": 1,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 2,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 24,
+          "minutes_played": 1915,
+          "lineups": 22
+        },
+        "substitutes": {
+          "in": 2,
+          "out": 5,
+          "bench": 4
+        }
+      },
+      {
+        "player_id": 163,
+        "player_name": "S. Aurier",
+        "firstname": "Serge",
+        "lastname": "Aurier",
+        "number": null,
+        "position": "Defender",
+        "age": 28,
+        "birth_date": "24/12/1992",
+        "birth_place": "Ouragahio",
+        "birth_country": "C\u00f4te d'Ivoire",
+        "nationality": "C\u00f4te d'Ivoire",
+        "height": "176 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.775000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "FA Cup",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 5,
+          "on": 2
+        },
+        "goals": {
+          "total": 0,
+          "conceded": 0,
+          "assists": 1
+        },
+        "passes": {
+          "total": 145,
+          "key": 2,
+          "accuracy": 75
+        },
+        "tackles": {
+          "total": 9,
+          "blocks": 1,
+          "interceptions": 4
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 19,
+          "success": 9
+        },
+        "fouls": {
+          "drawn": 4,
+          "committed": 7
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 4,
+          "minutes_played": 390,
+          "lineups": 4
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 0,
+          "bench": 1
+        }
+      },
+      {
+        "player_id": 163,
+        "player_name": "S. Aurier",
+        "firstname": "Serge",
+        "lastname": "Aurier",
+        "number": null,
+        "position": "Defender",
+        "age": 28,
+        "birth_date": "24/12/1992",
+        "birth_place": "Ouragahio",
+        "birth_country": "C\u00f4te d'Ivoire",
+        "nationality": "C\u00f4te d'Ivoire",
+        "height": "176 cm",
+        "weight": "76 kg",
+        "injured": null,
+        "rating": "6.800000",
+        "team_id": 47,
+        "team_name": "Tottenham",
+        "league": "UEFA Champions League",
+        "season": "2019-2020",
+        "captain": 0,
+        "shots": {
+          "total": 1,
+          "on": 1
+        },
+        "goals": {
+          "total": 1,
+          "conceded": 0,
+          "assists": 2
+        },
+        "passes": {
+          "total": 139,
+          "key": 10,
+          "accuracy": 78
+        },
+        "tackles": {
+          "total": 8,
+          "blocks": 3,
+          "interceptions": 1
+        },
+        "duels": {
+          "total": 0,
+          "won": 0
+        },
+        "dribbles": {
+          "attempts": 12,
+          "success": 4
+        },
+        "fouls": {
+          "drawn": 7,
+          "committed": 6
+        },
+        "cards": {
+          "yellow": 0,
+          "yellowred": 0,
+          "red": 0
+        },
+        "penalty": {
+          "won": 0,
+          "commited": 0,
+          "success": 0,
+          "missed": 0,
+          "saved": 0
+        },
+        "games": {
+          "appearences": 5,
+          "minutes_played": 450,
+          "lineups": 5
+        },
+        "substitutes": {
+          "in": 0,
+          "out": 1,
+          "bench": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+<div class="row">
+
+{% for room in rooms %}
+
+<div class="card col-3 m-1">
+  <img src="{{room.img_url}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{room.category | upper}} Room</h5>
+    <ul>
+      <li>{{room.beds}} Beds</li>
+      <li>£{{room.rate}} per night</li>
+    </ul>
+    <a href="/confirm/{{check_in}}/{{check_out}}/{{room.id}}" class="btn btn-primary">Reserve This Room</a>
+  </div>
+</div>
+
+{% endfor %}
+</div>
+{% endblock %}
+

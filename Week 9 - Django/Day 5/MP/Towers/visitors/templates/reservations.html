@@ -1,0 +1,19 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+<form method="POST">
+    {% csrf_token %}
+     {{form | crispy}}
+    <input type="submit" value="Check Availability">
+</form>
+{% else %}
+<p>You must be logged in to make a reservation</p>
+{% endif %}
+<hr>
+
+{% endblock %}
+

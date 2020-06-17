@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+
+{% block content %}
+
+{{query.fixture.opposition}},
+
+
+<h1>My Availability</h1>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ formset.management_form }}
+    <table class="table">
+        <tr>
+            <th>Date</th>
+            <th>Kick Off Time</th>
+            <th>Match</th>
+            <th>Venue</th>
+            <th>Availaibility</th>
+        </tr>
+        {% for form in formset %}
+        <tr>
+            <td>{{form.instance.fixture.date}}</td>
+            <td>{{form.instance.fixture.time}}</td>
+            <td>{{form.instance.fixture.home_away}} vs. {{form.instance.fixture.opposition}}</td>
+            <td>{{form.instance.fixture.venue}}</td>
+            <td>{% for field in form %}{{field}}{% endfor %}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+<hr>
+    <input type="submit" value="Update">
+</form>
+
+
+{% endblock %}

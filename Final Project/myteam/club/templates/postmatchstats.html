@@ -1,0 +1,62 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+<h1>Match Result</h1>
+<form method="post">
+    {% csrf_token %}
+    <table class="table">
+
+        <tr>
+            <th class="col align-middle">Fixture</th>
+            <th class="col align-middle">Result</th>
+            <th class="col align-middle">Goals For</th>
+            <th class="col align-middle">Goals Against</th>
+        </tr>
+        <tr>
+            <td class="col align-middle">{{fixture.home_away}} vs. {{fixture.opposition}} on {{fixture.date}} at {{fixture.venue}}</td>
+            {% for field in form %}
+            <th class="col align-middle text-center">{{field}}</th>
+            {% endfor %}
+        </tr>
+    </table>
+<hr>
+
+
+
+<h1>Player Stats</h1>
+
+    {{ formset.management_form }}
+    <table class="table">
+        <tr>
+            <th class="col">Player</th>
+            <th class="col">Appearance</th>
+            <th class="col">Goals</th>
+            <th class="col">Assists</th>
+            <th class="col">Match Rating</th>
+        </tr>
+        {% for form in formset %}
+        <tr>
+            <td class="col align-middle">{{form.instance.player.first_name}} {{form.instance.player.last_name}}</td>
+            {% for field in form %}
+            <td class="col align-middle">{{field}}</td>
+            {% endfor %}
+        </tr>
+
+        {% endfor %}
+    </table>
+    <input type="submit" class="btn btn-success btn-sm" style="width: 250px;" value="Enter Match Stats">
+</form>
+
+
+<!--            {% for form in formset %}-->
+<!--            <tr>-->
+<!--                <td>{{form.instance.player.first_name}} {{form.instance.player.last_name}}</td>-->
+<!--                <td>{% for field in form %}{{field}}{% endfor %}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+
+{% endblock %}

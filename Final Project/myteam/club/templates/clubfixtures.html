@@ -1,0 +1,66 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+
+
+<h1>{{club.name}} Fixtures Page</h1>
+{% if fixtures %}
+    <table class="table">
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Competition</th>
+            <th>Venue</th>
+            <th>Home Team</th>
+            <th>Away Team</th>
+            {% if club.manager.id == user.id %}
+                <th>Manager Options</th>
+            {% endif %}
+        </tr>
+    {% for fixture in fixtures %}
+    <tr>
+        <td class="align-middle">{{fixture.date}}</td>
+        <td class="align-middle">{{fixture.time}}</td>
+        <td class="align-middle">{{fixture.competition}}</td>
+        <td class="align-middle">{{fixture.venue}}</td>
+        {% if fixture.home_away == "Home" %}
+            <td class="align-middle">{{fixture.club.name}}</td>
+        {% elif fixture.home_away == "Away" %}
+            <td class="align-middle">{{fixture.opposition}}</td>
+        {% endif %}
+        {% if fixture.home_away == "Home" %}
+            <td class="align-middle">{{fixture.opposition}}</td>
+        {% elif fixture.home_away == "Away" %}
+            <td class="align-middle">{{fixture.club.name}}</td>
+        {% endif %}
+        {% if club.manager.id == user.id %}
+        <td class="align-middle">
+            <a href="/clubs/{{club.id}}/fixtures/{{fixture.id}}/edit_fixture" class="btn btn-warning" style="width: 80px; margin:5px;">Edit</a>
+            <a href="/clubs/{{club.id}}/fixtures/{{fixture.id}}/select_team" class="btn btn-primary" style="width: 80px; margin:5px;">Team</a>
+            <a href="/clubs/{{club.id}}/fixtures/{{fixture.id}}/tactics" class="btn btn-success" style="width: 80px; margin:5px;">Tactics</a>
+            <a href="/clubs/{{club.id}}/fixtures/{{fixture.id}}/post_match_stats" class="btn btn-dark" style="width: 80px; margin:5px;">Result</a>
+        </td>
+        {% else %}
+        <td class="align-middle">
+            <a href="/clubs/{{club.id}}/fixtures/{{fixture.id}}/tactics" class="btn btn-success" style="width: 70px; margin:10px;">Team Sheet</a>
+        </td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No fixtures currently set</p>
+{% endif %}
+{% if club.manager.id == user.id %}
+<a href="/clubs/{{club.id}}/fixtures/add_fixture" class="btn btn-success btn-lg" style="width: 200px;">Add Fixture</a>
+{% endif %}
+
+
+
+
+
+{% endblock %}

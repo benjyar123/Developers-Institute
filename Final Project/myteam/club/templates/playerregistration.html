@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+<p>{{user.profile.first_name}} {{user.profile.last_name}} - click below to join {{club.name}} as a player</p><br>
+
+<a href="{% url 'join_club' club_id=club.id %}" class="btn btn-warning">Join Club</a>
+
+
+
+
+
+{% endblock %}

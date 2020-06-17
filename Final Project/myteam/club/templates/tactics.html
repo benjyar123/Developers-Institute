@@ -1,0 +1,151 @@
+{% extends 'base.html' %}}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+{% if club.manager.id == user.id %}
+        <h1>Assign Positions</h1>
+        <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ formset.management_form }}
+        <table class="table">
+            <tr>
+                <th>Player</th>
+                <th>Position</th>
+            </tr>
+            {% for form in formset %}
+            <tr>
+                <td>{{form.instance.player.first_name}} {{form.instance.player.last_name}}</td>
+                <td>{% for field in form %}{{field}}{% endfor %}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+        <hr>
+        <input type="submit" value="Select Positions" class="btn btn-success btn-sm" style="width: 250px;">
+        </form><br><br>
+
+{% endif %}
+
+
+
+
+
+
+{% if positions %}
+
+
+<h1 class="text-center">Team Sheet</h1>
+<h5 class="text-center">{{fixture.club.name}} vs. {{fixture.opposition}}</h5>
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <table class="table">
+            <tr>
+                <th>Player</th>
+                <th>Starting Position</th>
+            </tr>
+            {% for position in positions %}
+            {% if position.position == "Goalkeeper" %}
+            <tr>
+                <td>{{position.player.first_name}} {{position.player.last_name}}</td>
+                <td>{{position.position}}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            {% for position in positions %}
+            {% if position.position == "Defender" %}
+            <tr>
+                <td>{{position.player.first_name}} {{position.player.last_name}}</td>
+                <td>{{position.position}}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            {% for position in positions %}
+            {% if position.position == "Midfielder" %}
+            <tr>
+                <td>{{position.player.first_name}} {{position.player.last_name}}</td>
+                <td>{{position.position}}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            {% for position in positions %}
+            {% if position.position == "Attacker" %}
+            <tr>
+                <td>{{position.player.first_name}} {{position.player.last_name}}</td>
+                <td>{{position.position}}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            {% for position in positions %}
+            {% if position.position == "Substitute" %}
+            <tr>
+                <td>{{position.player.first_name}} {{position.player.last_name}}</td>
+                <td>{{position.position}}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+    </div>
+    <div class="col-4">
+    </div>
+</div><br><br>
+<h1 class="text-center">Line Up</h1>
+
+
+
+<div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-8" style="height: 800px; background: url({% static 'tactics.jpg' %}); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="row">
+            <div class="col" style="height: 200px; display: flex; justify-content:space-around; align-items: center;">
+                {% for position in positions %}
+                {% if position.position == "Attacker" %}
+                <img src="{{position.player.image.url}}" class= alt="..." style="width: 120px; height: 120px; border: 5px solid yellow; border-radius: 50%;">
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="height: 200px; display: flex; justify-content:space-around; align-items: center;">
+                {% for position in positions %}
+                {% if position.position == "Midfielder" %}
+                <img src="{{position.player.image.url}}" class= alt="..." style="width: 120px; height: 120px; border: 5px solid yellow; border-radius: 50%;">
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+       <div class="row">
+            <div class="col" style="height: 200px; display: flex; justify-content:space-around; align-items: center;">
+                {% for position in positions %}
+                {% if position.position == "Defender" %}
+                <img src="{{position.player.image.url}}" class= alt="..." style="width: 120px; height: 120px; border: 5px solid yellow; border-radius: 50%;">
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+      <div class="row">
+            <div class="col" style="height: 200px; display: flex; justify-content:space-around; align-items: center;">
+                {% for position in positions %}
+                {% if position.position == "Goalkeeper" %}
+                <img src="{{position.player.image.url}}" class= alt="..." style="width: 120px; height: 120px; border: 5px solid yellow; border-radius: 50%;">
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+    </div>
+
+</div>
+
+{% endif %}
+
+
+
+{% endblock %}

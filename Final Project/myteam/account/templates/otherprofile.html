@@ -1,0 +1,70 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-header">@{{player.user.username}}</div>
+  <div class="card-body text-left">
+      <div class="row">
+          <div class="col-4">
+              <img src="{{player.image.url}}" class="mx-auto d-block rounded" alt="..." style="width: 200px; height: 200px; object-fit: cover; right-margin: 100px;">
+          </div>
+          <div class="col-4">
+              <h5 class="card-title">Details and Contact Information</h5>
+              <table>
+                  <tr>
+                      <th>Name:</th>
+                      <td>{{player.first_name}} {{player.last_name}}</td>
+                  </tr>
+                  <tr>
+                      <th>Email Address:   </th>
+                      <td>{{player.email}}</td>
+                  </tr>
+                  <tr>
+                      <th>Role:</th>
+                      <td>{{player.role}}</td>
+                  </tr>
+                  <tr>
+                      <th>Position:</th>
+                      <td>{{player.position}}</td>
+                  </tr>
+            </table>
+          </div>
+          <div class="col-4">
+               <h5 class="card-title">{{player.first_name}}'s Clubs</h5>
+              {% if clubs %}
+              {% for club in clubs %}
+                <a href="clubs/{{club.id}}/details" class="btn btn-warning btn-sm">{{club.name}} (Manager)</a><br><br>
+              {% endfor %}
+              {% endif %}
+              {% if player_clubs %}
+              {% for club in player_clubs %}
+              <a href="/clubs/{{club.id}}/details" class="btn btn-success btn-sm">{{club.name}} (Player)</a><br><br>
+              {% endfor %}
+              {% endif %}
+          </div>
+      </div>
+  </div>
+ <div class="card-footer"><a href="/message_user/{{player.id}} " class="btn btn-success btn-sm">Message {{player.first_name}}</a></div>
+
+</div>
+
+<br><br>
+
+
+
+
+
+
+
+{% if not user.profile %}
+<h2>Create your user profile</h2>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form | crispy}}
+    <input type="submit" value="Submit form">
+</form>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+
+
+
+
+<div class="card ">
+  <div class="card-header">
+    Message From: {{message.sender}} on {{message.time}}
+  </div>
+  <div class="card-body">
+      <img src="{{message.sender.image.url}}" class="float-right d-block rounded" alt="..." style="width: 100px; height: 100px; object-fit: cover; right-margin: 100px;">
+
+    <h5 class="card-title">Subject: {{message.subject}}</h5>
+    <p class="card-text">{{message.content}}</p>
+    <a href="#" class="btn btn-primary">Reply</a>
+  </div>
+  <div class="card-footer text-muted">
+    <a href="/profile">Back</a>
+  </div>
+</div><br>
+{% endblock %}

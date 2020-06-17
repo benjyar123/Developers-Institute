@@ -1,0 +1,177 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+{% if user.profile %}
+<div class="card text-center">
+  <div class="card-header">@{{user.username}}</div>
+  <div class="card-body text-left">
+      <div class="row">
+          <div class="col-4 text-center">
+              <img src="{{user.profile.image.url}}" class="mx-auto d-block rounded" alt="..." style="width: 200px; height: 200px; object-fit: cover; right-margin: 100px;">
+          </div>
+          <div class="col-4 text-center">
+              <h5 class="card-title">Details and Contact Information</h5>
+              <table class=" text-left">
+                  <tr>
+                      <th>Name:</th>
+                      <td>{{user.profile.first_name}} {{user.profile.last_name}}</td>
+                  </tr>
+                  <tr>
+                      <th>Email Address:   </th>
+                      <td>{{user.profile.email}}</td>
+                  </tr>
+                  <tr>
+                      <th>Role:</th>
+                      <td>{{user.profile.role}}</td>
+                  </tr>
+                  <tr>
+                      <th>Position:</th>
+                      <td>{{user.profile.position}}</td>
+                  </tr>
+            </table>
+          </div>
+          <div class="col-4 text-center">
+               <h5 class="card-title">My Clubs</h5>
+
+              {% if clubs %}
+              {% for club in clubs %}
+              <a href="clubs/{{club.id}}/details" class="btn btn-warning btn-sm" style="width: 250px;">{{club.name}} (Manager)</a><br><br>
+              {% endfor %}
+              {% endif %}
+              {% if player_clubs %}
+              {% for club in player_clubs %}
+              <a href="clubs/{{club.id}}/details" class="btn btn-success btn-sm" style="width: 250px;">{{club.name}} (Player)</a><br><br>
+              {% endfor %}
+              {% elif not clubs and not player_clubs %}
+              <p>(no current clubs)</p>
+              {% endif %}
+          </div>
+      </div><br>
+      <div class="row">
+          <div class="col-4 text-center">
+              <a href="{% url 'edit_profile' %}" class="btn btn-success btn-sm" style="width: 250px;">Edit Profile</a><br><br>
+          </div>
+          <div class="col-4 text-center">
+              <a href="{% url 'clubregistration' %}" class="btn btn-success btn-sm" style="width: 250px;">Register New Club as Manager</a><br><br>
+          </div>
+          <div class="col-4 text-center">
+              <a href="{% url 'clubs' %}" class="btn btn-success btn-sm" style="width: 250px;">Join Club as Player</a><br><br>
+          </div>
+      </div>
+  </div>
+  <div class="card-footer card-header text-muted">Messaging</div>
+    <div class="card-body text-left">
+        <div class="row">
+            <div class="col-1"></div>
+          <div class="col-4">
+              <h5 class="card-title">Compose Message</h5>
+              {% if clubs %}
+              {% for club in clubs %}
+                <a href="/compose_message/{{club.id}}" class="btn btn-warning btn-sm" style="width: 250px;">Message All {{club.name}} Players</a><br><br>
+              {% endfor %}
+              {% endif %}
+              <a href="{% url 'compose_message' %}" class="btn btn-success btn-sm" style="width: 250px;">New Private Message</a><br><br>
+          </div>
+        </div>
+      <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+              {% if user_messages %}
+              <h5 class="card-title">Inbox ({{num_unread_messages}})</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">From</th>
+                            <th scope="col"></th>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Date</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for message in user_messages %}
+                    <tr {% if message.status == "Unread" %} class="alert-success" {% endif %}>
+                        <td class="align-middle"><img src="{{message.sender.image.url}}" class="mx-auto d-block rounded" alt="..." style="width: 50px; height: 50px; object-fit: cover; right-margin: 5px;"></td>
+                        <td class="align-middle"><a href="/profile/{{message.sender.id}}" >{{message.sender}}</a></td>
+                        <td class="align-middle"><a href="/read_message/{{message.id}}">{{message.subject}}</a></td>
+                        <td class="align-middle">{{message.time}}</td>
+                        <td class="align-middle"><a href="/read_message/{{message.id}}" class="btn btn-primary btn-sm">Open</a></td>
+                        <td class="align-middle"><a href="/delete_message/{{message.id}}" class="btn btn-danger btn-sm">Delete</a></td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+              {% endif %}
+          </div>
+      </div>
+
+<!--        {% if sent_messages %}-->
+
+<!--    <div class="row">-->
+<!--        <div class="col-1"></div>-->
+<!--          <div class="col-10">-->
+<!--              <h5 class="card-title">Sent Messages</h5>-->
+<!--                <table class="table">-->
+<!--                    <thead>-->
+<!--                        <tr>-->
+<!--                            <th scope="col">To</th>-->
+<!--                            <th scope="col"></th>-->
+<!--                            <th scope="col">Subject</th>-->
+<!--                            <th scope="col">Date</th>-->
+<!--                            <th scope="col"></th>-->
+<!--                            <th scope="col"></th>-->
+<!--                        </tr>-->
+<!--                    </thead>-->
+<!--                    <tbody>-->
+<!--                    {% for message in sent_messages %}-->
+<!--                    <tr {% if message.status == "Unread" %} class="alert-danger" {% endif %}>-->
+<!--                        <td class="align-middle"><img src="{{message.receiver.image.url}}" class="mx-auto d-block rounded" alt="..." style="width: 50px; height: 50px; object-fit: cover; right-margin: 5px;"></td>-->
+<!--                        <td class="align-middle"><a href="/profile/{{message.receiver.id}}" >{{message.receiver}}</a></td>-->
+<!--                        <td class="align-middle"><a href="/read_message/{{message.id}}">{{message.subject}}</a></td>-->
+<!--                        <td class="align-middle">{{message.time}}</td>-->
+<!--                        <td class="align-middle"><a href="/read_message/{{message.id}}" class="btn btn-primary btn-sm">Open</a></td>-->
+<!--                        <td class="align-middle"><a href="/delete_message/{{message.id}}" class="btn btn-danger btn-sm">Delete</a></td>-->
+<!--                    </tr>-->
+<!--                    {% endfor %}-->
+<!--                    </tbody>-->
+<!--                </table>-->
+<!--          </div>-->
+<!--    </div>-->
+
+<!--              {% endif %}-->
+</div>
+
+         <div class="card-footer text-muted text-center">
+            <a href="{% url 'logout_view' %}">Logout</a>
+       </div>
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+</div>
+<p></p>
+{%endif%}
+
+
+
+
+
+{% if not user.profile %}
+<h2>Create your user profile</h2>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form | crispy}}
+    <input type="submit" value="Submit form">
+</form>
+{% endif %}
+{% endblock %}

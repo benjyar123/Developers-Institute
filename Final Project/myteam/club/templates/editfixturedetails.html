@@ -1,0 +1,19 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-4">
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form | crispy}}
+    <input type="submit" value="Update Fixture Details" class="btn btn-success btn-sm" style="width: 250px;">
+</form><br>
+
+        <a href="/clubs/{{club.id}}/fixtures/{{fixture.id}}/cancel_fixture" class="btn btn-danger btn-sm" style="width: 250px;">Delete Fixture</a>
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+
+
+<form method="POST">
+    {% csrf_token %}
+    <input name="club" type="text" style="width: 250px;" placeholder="Club Name"><br><br>
+    <button type="submit" class="btn btn-success btn-sm" style="width: 250px;">Search</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

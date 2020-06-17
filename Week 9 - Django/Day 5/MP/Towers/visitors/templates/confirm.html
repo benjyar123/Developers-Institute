@@ -1,0 +1,28 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+
+
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title">{{room.category | upper}} room for {{nights}} nights: £{{price}}</h5>
+  </div>
+  <div class="card-body">
+    <img src="{{room.img_url}}" class="card-img-top" alt="..."><br>
+    <form method="POST">
+    {% csrf_token %}
+     {{form | crispy}}
+    <input type="submit" class="btn btn-primary" value="Confirm Booking">
+</form>
+
+  </div>
+</div><br>
+
+
+
+{% endblock %}
+

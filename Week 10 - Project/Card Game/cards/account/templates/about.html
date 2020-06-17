@@ -1,0 +1,36 @@
+{% extends 'base.html' %}}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+<table class="table">
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Team</th>
+        <th scope="col">Position</th>
+        <th scope="col">Age</th>
+        <th scope="col">Appearances</th>
+        <th scope="col">Goals</th>
+        <th scope="col">Passing Accuracy</th>
+        <th scope="col">Tackles</th>
+        <th scope="col">Price</th>
+    </tr>
+  {% for player in players %}
+    <tr>
+        <td>{{player.first_name}} {{player.last_name}}</td>
+        <td>{{player.team_name}}</td>
+        <td>{{player.position}}</td>
+        <td>{{player.age}}</td>
+        <td>{{player.appearances}}</td>
+        <td>{{player.goals}}</td>
+        <td>{{player.passing_accuracy}}%</td>
+        <td>{{player.tackles}}</td>
+        <td>{{player.price}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+
+{% endblock %}

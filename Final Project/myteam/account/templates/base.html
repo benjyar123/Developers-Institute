@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}TITLE{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+    body {
+    font-family: 'Rajdhani', sans-serif;
+    }
+    .nav-item {
+    font-size: 25px;
+    margin: 20px;
+    }
+    #footer {
+    background-image: url({% static 'download.jpg' %});
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    </style>
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+    <a class="navbar-brand" href="#"><img src="{% static 'football.png' %}" style="height: 25px;"> MyTeam</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav" style="position: absolute; left: 50%; transform: translatex(-50%);">
+            <li class="nav-item active">
+                <a class="nav-link" href="/home">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/clubs">Clubs</a>
+            </li>
+            {% if not user.is_authenticated %}
+            <li class="nav-item active">
+                <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/register">Register</a>
+            </li>
+            {% endif %}
+            {% if user.is_authenticated %}
+            <li class="nav-item active">
+                <a class="nav-link" href="/profile">My Profile</a>
+            </li>
+            {% for club in user.profile.club_set.all %}
+            <li class="nav-item active">
+                <a class="nav-link" href="/clubs/{{club.id}}/details">{{club.name}}</a>
+            </li>
+            {%endfor%}
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'logout_view' %}">Logout</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container"><br>
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert {{ message.tags }} alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                {{ message }}
+              </div>
+            {% endfor %}
+        {% endif %}
+    <h1>{% block heading %}{% endblock %}</h1>
+    <p>{% block summary %}{% endblock %}</p>
+
+
+
+    {% block content %}
+    THIS IS WHERE ALL THE OTHER STUFF WILL GO
+    {% endblock %}
+</div><br><br>
+<div class="text-center" id="footer" style="height: 680px;">
+  <div class="container">
+    <h1 class="display-4"><a class="navbar-brand" href="#"><img src="{% static 'football.png' %}" style="height: 25px;"> MyTeam</a></h1>
+      {% if user.is_authenticated %}
+    <p class="lead" style="font-size:30px; color: white;">Logged in as {{ user.username | upper }}</p>
+    {% endif %}
+    <p class="lead" style="font-size:30px;"><a href="/home">Home</a> | <a href="/clubs">Clubs</a>
+        {% if not user.is_authenticated %} | <a href="/clubs" >Login</a> | <a href="/register">Register</a> {% endif %}
+         {% if user.is_authenticated %} | <a href="/profile">My Profile</a>{% for club in user.club_set.all %} | <a href="/clubs/{{club.id}}/details">{{club.name}}</a>{%endfor%}  | <a href="{% url 'logout_view' %}">Logout</a> {% endif %}
+    </p>
+
+
+
+
+
+
+
+
+
+
+<!--  </div>-->
+<!--    <img src="{% static 'download.jpg' %}" style="width: 100%;">-->
+<!--</div>-->
+</body>
+</html>

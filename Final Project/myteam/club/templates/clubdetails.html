@@ -1,0 +1,55 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+<img src="{{club.logo.url}}" class="rounded mx-auto d-block" alt="..." style="max-height:150px">
+    <h1 class="display-4 text-center">{{club.name}}</h1>
+
+
+
+
+<div class="row">
+    <div class="col text-center"><strong>Manager:</strong> {{club.manager.profile.first_name}} {{club.manager.profile.last_name}}</div>
+</div><br>
+
+
+<div class="row text-center d-flex justify-content-around">
+    <a href="/message_user/{{club.manager.id}} " class="btn btn-success btn-lg" style="width: 200px;">Contact Manager</a>
+
+</div>
+
+<hr>
+
+{% if club.manager.id == user.id %}
+
+<h1 class="text-center">Manager Options</h1>
+    <p class="card-text text-center d-flex justify-content-around">
+        <a href="/clubs/{{club.id}}/fixtures" class="btn btn-success btn-lg" style="width: 200px;">Manage Fixtures</a>
+        <a href="/clubs/{{club.id}}/squad" class="btn btn-success btn-lg" style="width: 200px;">Manage Squad</a>
+        <a href="/compose_message/{{club.id}}" class="btn btn-success btn-lg" style="width: 200px;">Message Squad</a>
+        <a href="/clubs/{{club.id}}/edit_club_details" class="btn btn-success btn-lg" style="width: 200px;">Edit Club Details</a>
+    </p>
+<hr>
+{% endif %}
+
+
+
+<h1 class="text-center">Player Options</h1>
+    <p class="card-text text-center d-flex justify-content-around">
+        {% if request.user.profile in club.players.all %}
+        <a href="/clubs/{{club.id}}/fixtures" class="btn btn-primary btn-lg" style="width: 200px;">Fixtures</a>
+        <a href="/clubs/{{club.id}}/results" class="btn btn-primary btn-lg" style="width: 200px;">Results</a>
+        <a href="/clubs/{{club.id}}/fixtures/player_availability" class="btn btn-primary btn-lg" style="width: 200px;">Availabilty</a>
+        <a href="/clubs/{{club.id}}/squad" class="btn btn-primary btn-lg" style="width: 200px;">Squad</a>
+        {% elif not request.user.profile in club.players.all %}
+        <a href="/clubs/{{club.id}}/join_club" class="btn btn-success btn-lg" style="width: 200px;">Join Club</a>
+        {% endif %}
+    </p>
+<hr>
+
+
+
+{% endblock %}
+

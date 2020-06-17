@@ -8,12 +8,9 @@ from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 
 # Create your views here.
 
-# class Signup(CreateView):
-#     form_class = UserCreationForm
-#     template_name = "signup.html"
-#     success_url = "/login"
-#
-# class Login(FormView):
+
+# Alternative approach to login/authentication
+# class Login_View(FormView):
 #     form_class = AuthenticationForm
 #     template_name = "login.html"
 #     success_url = "/homepage"
@@ -37,5 +34,7 @@ class Signup(CreateView):
 def logout_view(request):
     logout(request)
     return redirect("login")
+
+
 
 

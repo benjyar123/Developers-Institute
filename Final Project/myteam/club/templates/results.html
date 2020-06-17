@@ -1,0 +1,69 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+
+
+
+<h1>{{club.name}} Results Page</h1>
+{% if results %}
+    <table class="table">
+        <tr>
+            <th>Date</th>
+            <th>Fixture</th>
+            <th>Result</th>
+            <th>Score</th>
+            {% if club.manager.id == user.id %}
+                <th>Manager Options</th>
+            {% endif %}
+        </tr>
+    {% for result in results %}
+    <tr>
+        <td class="align-middle">{{result.fixture.date}}</td>
+        {% if result.fixture.home_away == "Home" %}
+        <td class="align-middle">Home vs. {{result.fixture.opposition}}</td>
+        {% elif result.fixture.home_away == "Away" %}
+        <td class="align-middle">Away vs. {{result.fixture.opposition}}</td>
+        {% endif %}
+        <td class="align-middle">{{result.result}}</td>
+        <td class="align-middle">{{result.goals_for}} - {{result.goals_against}}</td>
+
+        <td class="align-middle">
+            <a href="/clubs/{{club.id}}/fixtures/{{result.fixture.id}}/post_match_stats" class="btn btn-success" style="width: 100px; margin:10px;">Update</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h1>{{club.name}} Club Stats</h1>
+
+ <table class="table">
+        <tr>
+            <th>Games Played</th>
+            <th>Won</th>
+            <th>Lost</th>
+            <th>Drawn</th>
+            <th>GF</th>
+            <th>GA</th>
+        </tr>
+        <tr>
+            <td>{{played}}</td>
+            <td>{{won}}</td>
+            <td>{{lost}}</td>
+            <td>{{drawn}}</td>
+            <td>{{gf}}</td>
+            <td>{{ga}}</td>
+        </tr>
+ </table>
+
+
+{% else %}
+<p>No Results Recorded</p>
+{% endif %}
+
+
+
+
+{% endblock %}

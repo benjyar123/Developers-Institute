@@ -1,0 +1,55 @@
+{% extends 'base.html' %}}
+{% load crispy_forms_tags %}
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{heading}}{% endblock %}
+{% block summary %}{{summary}}{% endblock %}
+{% block content %}
+PROFILE TEST STUFF
+<hr>
+{% if user.profile %}
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{user.profile.image}}" alt="Card image cap">
+  <div class="card-body">
+      <h5 class="card-title">{{user.username}}</h5>
+      <table>
+          <tr>
+              <th>Name:</th>
+              <td>{{user.profile.first_name}} {{user.profile.last_name}}</td>
+          </tr>
+          <tr>
+              <th>Birth Date:</th>
+              <td>{{user.profile.birth_date}}</td>
+          </tr>
+          <tr>
+              <th>Country:</th>
+              <td>{{user.profile.country}}</td>
+          </tr>
+          <tr>
+              <th>Club:</th>
+              <td>{{user.profile.club}}</td>
+          </tr>
+          <tr>
+              <th>Coins:</th>
+              <td>{{user.profile.coins}}</td>
+          </tr>
+          <tr>
+              <th>Points:</th>
+              <td>{{user.profile.points}}</td>
+          </tr><br><br>
+      </table>
+    <p class="card-text">Bit more information over here maybe.</p>
+  </div>
+</div>
+
+{% endif %}
+
+
+
+
+<hr>
+<form method="POST">
+    {% csrf_token %}
+    {{form | crispy}}
+    <input type="submit" value="Submit form">
+</form>
+{% endblock %}
