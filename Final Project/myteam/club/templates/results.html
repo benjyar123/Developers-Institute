@@ -29,10 +29,12 @@
         {% endif %}
         <td class="align-middle">{{result.result}}</td>
         <td class="align-middle">{{result.goals_for}} - {{result.goals_against}}</td>
+        {% if club.manager.id == user.id %}
 
         <td class="align-middle">
             <a href="/clubs/{{club.id}}/fixtures/{{result.fixture.id}}/post_match_stats" class="btn btn-success" style="width: 100px; margin:10px;">Update</a>
         </td>
+        {% endif %}
     </tr>
     {% endfor %}
 </table>

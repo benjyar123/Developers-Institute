@@ -48,7 +48,7 @@ def club_squad(request, club_id):
         player.assists = PlayerPerformance.objects.filter(player=player).aggregate(Sum('assists'))['assists__sum']
         rating = PlayerPerformance.objects.filter(player=player).aggregate(Avg('rating'))['rating__avg']
         if not rating == None:
-            player.rating = str(round(rating, 2))
+            player.rating = str(round(rating, 1))
         else:
             player.rating = 'N/A'
 

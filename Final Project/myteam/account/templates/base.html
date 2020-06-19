@@ -13,16 +13,30 @@
     <style>
     body {
     font-family: 'Rajdhani', sans-serif;
+    height:100%;
     }
     .nav-item {
     font-size: 25px;
     margin: 20px;
     }
     #footer {
+    background-image: url({% static 'banner.jpg' %});
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    bottom:0;
+    }
+
+    #homejumbo {
+
+    height: 650px;
     background-image: url({% static 'download.jpg' %});
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
+    background-position: center 30px;
+    color: white;
+
     }
 
     </style>
@@ -69,7 +83,7 @@
 </nav>
 
 
-<div class="container"><br>
+<div class="container">
     {% if messages %}
         {% for message in messages %}
             <div class="alert {{ message.tags }} alert-dismissible" role="alert">
@@ -81,7 +95,6 @@
             {% endfor %}
         {% endif %}
     <h1>{% block heading %}{% endblock %}</h1>
-    <p>{% block summary %}{% endblock %}</p>
 
 
 
@@ -89,16 +102,21 @@
     THIS IS WHERE ALL THE OTHER STUFF WILL GO
     {% endblock %}
 </div><br><br>
-<div class="text-center" id="footer" style="height: 680px;">
+
+<div class="container">
+<div class="text-center" id="footer" style="height: 300px;">
   <div class="container">
-    <h1 class="display-4"><a class="navbar-brand" href="#"><img src="{% static 'football.png' %}" style="height: 25px;"> MyTeam</a></h1>
-      {% if user.is_authenticated %}
-    <p class="lead" style="font-size:30px; color: white;">Logged in as {{ user.username | upper }}</p>
-    {% endif %}
-    <p class="lead" style="font-size:30px;"><a href="/home">Home</a> | <a href="/clubs">Clubs</a>
+      <div style="height: 90px;"></div>
+    <h1 class="display-4" ><a class="navbar-brand" href="#"><img src="{% static 'football.png' %}" style="height: 25px;"> MyTeam</a></h1>
+
+    <p class="lead" style="font-size:30px;"><a href="/clubs">Clubs</a>
         {% if not user.is_authenticated %} | <a href="/clubs" >Login</a> | <a href="/register">Register</a> {% endif %}
          {% if user.is_authenticated %} | <a href="/profile">My Profile</a>{% for club in user.club_set.all %} | <a href="/clubs/{{club.id}}/details">{{club.name}}</a>{%endfor%}  | <a href="{% url 'logout_view' %}">Logout</a> {% endif %}
     </p>
+      {% if user.is_authenticated %}
+    <p class="lead" style="font-size:25px; color: green;">Logged in as {{ user.username | upper }}</p>
+    {% endif %}
+  </div>
 
 
 

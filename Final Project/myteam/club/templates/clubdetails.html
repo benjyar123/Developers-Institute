@@ -16,7 +16,7 @@
 
 
 <div class="row text-center d-flex justify-content-around">
-    <a href="/message_user/{{club.manager.id}} " class="btn btn-success btn-lg" style="width: 200px;">Contact Manager</a>
+    <a href="/message_user/{{club.manager.id}} " class="btn btn-warning btn-lg" style="width: 200px;">Contact Manager</a>
 
 </div>
 
@@ -40,9 +40,9 @@
     <p class="card-text text-center d-flex justify-content-around">
         {% if request.user.profile in club.players.all %}
         <a href="/clubs/{{club.id}}/fixtures" class="btn btn-primary btn-lg" style="width: 200px;">Fixtures</a>
-        <a href="/clubs/{{club.id}}/results" class="btn btn-primary btn-lg" style="width: 200px;">Results</a>
         <a href="/clubs/{{club.id}}/fixtures/player_availability" class="btn btn-primary btn-lg" style="width: 200px;">Availabilty</a>
-        <a href="/clubs/{{club.id}}/squad" class="btn btn-primary btn-lg" style="width: 200px;">Squad</a>
+        <a href="/clubs/{{club.id}}/results" class="btn btn-primary btn-lg" style="width: 200px;">Results</a>
+        <a href="/clubs/{{club.id}}/squad" class="btn btn-primary btn-lg" style="width: 200px;">Stats</a>
         {% elif not request.user.profile in club.players.all %}
         <a href="/clubs/{{club.id}}/join_club" class="btn btn-success btn-lg" style="width: 200px;">Join Club</a>
         {% endif %}

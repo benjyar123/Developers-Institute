@@ -1,73 +1,78 @@
-{% extends 'base.html' %}}
+{% extends 'base.html' %}
+{% load static %}
 {% block title %}{{title}}{% endblock %}
-{% block heading %}{{heading}}{% endblock %}
 {% block content %}
-<p>Welcome to MyTeam - the all-in-one resource for managing your amateur football team.</p>
-<p>Your previous admin headaches will become a distant memories as you utilise our core functions...</p>
+<div class="jumbotron" id="homejumbo">
+  <h1 class="display-4 text-center">MyTeam is MyHome</h1>
+  <h3 class="text-center"><em>play together : stay together</em></h3>
+</div>
+
+<h1 class="display-4 text-center">Game On</h1>
+<h3 class="text-center"><em>football team management made easy</em></h3><br>
 
 
 <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="media/gallery/register.png" alt="Card image cap">
+  <div class="card shadow p-3 mb-5">
+    <img class="card-img-top" src="media/gallery/clipboard.png" style="height: 300px; width: 80%;" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Register Your Club</h5>
       <p class="card-text">It takes 5 minutes to set up an account and register your club. Then you can explore all of our features. Managing your team has never been so easy!</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted"><a href="/register">Create an Account and Register Your Club</a></small>
+    <div class="card-footer bg-success">
+      <small class="text-muted"><a href="/register" style="color: white;">Sign Up Now</a></small>
     </div>
   </div>
-  <div class="card">
-    <img class="card-img-top" src="media/gallery/calendar.png" alt="Card image cap">
+  <div class="card shadow p-3 mb-5">
+    <img class="card-img-top" src="media/gallery/calendar2.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Scheduling and Admin</h5>
       <p class="card-text">Manage your fixture schedule, arrange training sessions and plan team events. Your players will always have all the information they need.</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">LINK TO EXAMPLE</small>
+    <div class="card-footer bg-success">
+      <small class="text-muted"><a href="/clubs/1/fixtures" style="color: white;">See Example</a></small>
     </div>
   </div>
-  <div class="card">
+  <div class="card shadow p-3 mb-5">
     <img class="card-img-top" src="media/gallery/message.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Messaging</h5>
       <p class="card-text">Your squad will love how quick and simple it is for them to declare their availability and send you subscription fees. No more last-minute scrambling around for ringers!</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">LINK TO EXAMPLE?</small>
+    <div class="card-footer bg-success">
+      <small class="text-muted"><a href="/compose_message/1" style="color: white;">See Example</a></small>
     </div>
   </div>
 </div>
 <br>
 <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="media/gallery/player2.jpg" alt="Card image cap">
+  <div class="card shadow p-3 mb-5">
+    <img class="card-img-top" src="media/gallery/squad.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Manage Your Squad</h5>
       <p class="card-text">Set up your club profile in 5 minutes. Recruit players by sending them a link to join your team.</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">LINK TO EXAMPLE</small>
+    <div class="card-footer bg-success">
+      <small class="text-muted"><a href="/clubs/1/squad" style="color: white;">See Example</a></small>
     </div>
   </div>
-  <div class="card">
+  <div class="card shadow p-3 mb-5">
     <img class="card-img-top" src="media/gallery/team.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Pick Team and Set Tactics</h5>
       <p class="card-text">Pick the best team for each match based on availability and squad strength. Send out tactical instructions ahead of the game.</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">LINK TO EXAMPLE</small>
+    <div class="card-footer bg-success">
+      <small class="text-muted"><a href="/clubs/1/fixtures/3/tactics" style="color: white;">See Example</a></small>
     </div>
   </div>
-  <div class="card">
+  <div class="card shadow p-3 mb-5">
     <img class="card-img-top" src="media/gallery/stats.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Track Player Performances and Statistics</h5>
       <p class="card-text">Log match details after every game and build up an archive of club and player data over time.</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">LINK TO EXAMPLE?</small>
+    <div class="card-footer bg-success">
+      <small class="text-muted"><a href="/clubs/1/fixtures/3/post_match_stats" style="color: white;">See Example</a></small>
     </div>
   </div>
 </div>
